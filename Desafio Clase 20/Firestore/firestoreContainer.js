@@ -76,7 +76,7 @@ export class fireProdsDb extends fireContainer {
     }
 };
 
-export class fireCartDb extends fireContainer {
+export class fireCartsDb extends fireContainer {
 
     constructor(objType){
         super(objType);
