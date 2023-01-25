@@ -7,26 +7,8 @@ import { engine } from "express-handlebars";
 import { faker } from '@faker-js/faker';
 import Container from "./persistance.js";
 
-const mySQLconfig = {
-    client: "mysql",
-    connection: {
-      host: "127.0.0.1",
-      port: 8889, //MAMP default port
-      user: "root",
-      password: "root",
-      database: "BEcourse"
-    },
-    pool: {min:0, max:7}
-};
 
-const sqliteConfig = {
-    client: "sqlite3",
-    connection: { filename: "./database/msgDB.sqlite"},
-    useNullAsDefault: true
-};
-
-const prods = new Container(mySQLconfig, "prods");
-const chatMsgs = new Container(sqliteConfig, "messages");
+const chatMsgs = new Container("messages");
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
