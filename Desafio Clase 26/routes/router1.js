@@ -15,6 +15,16 @@ const fakerData = () => {
     return products;
 };
 
+const isAuthenticated = (req, res, next) => {
+    if(req.isAuthenticated()) {
+        console.log(req.isAuthenticated)
+        next();
+    }
+    else {
+        res.redirect("/");
+    }
+};
+
 
 router
     .route("/")
@@ -46,13 +56,14 @@ router
 router.get("/loginFail", (req, res) => res.render("loginError"));
 
 router.get("/logout", (req, res) => {
-    req.logout();
-    res.render("logout")
+    req.logout(() => {
+        return res.render("logout")
+    });
 })
 
 router
     .route("/api/productos-test")
-    .get((req, res, next) => {
+    .get(isAuthenticated, (req, res, next) => {
         req.session.user ? next() : res.redirect("/")
     }, (req, res) => {
         let products = fakerData();
