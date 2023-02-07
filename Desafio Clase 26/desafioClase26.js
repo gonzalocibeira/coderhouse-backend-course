@@ -34,7 +34,7 @@ app.use(
       saveUninitialized: false,
       store: new MongoStore({
         mongoUrl:
-          "mongodb+srv://coderTest:Coderhouse2023@cluster0.1o7bz31.mongodb.net/?retryWrites=true&w=majority",
+          "mongodb://localhost:27017/ecommerce",
         mongoOptions,
       }),
       cookie:{
@@ -54,7 +54,7 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser((id, done) => {
-  User.findById(id);
+  User.findById(id, (err, user) => {done(err, user)});
 });
 
 app.use(express.static(__dirname + "/public"));
@@ -78,7 +78,7 @@ app.use(urlencoded({extended: true}));
 app.use("/", router1);
 
 mongoose.set("strictQuery", true);
-await mongoose.connect("mongodb://localhost:27017/ecommece");
+await mongoose.connect("mongodb://localhost:27017/ecommerce");
 const expressServer = app.listen(3000, () => {
         console.log("listening on port 3000")
 });

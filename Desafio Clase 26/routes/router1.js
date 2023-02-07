@@ -63,9 +63,7 @@ router.get("/logout", (req, res) => {
 
 router
     .route("/api/productos-test")
-    .get(isAuthenticated, (req, res, next) => {
-        req.session.user ? next() : res.redirect("/")
-    }, (req, res) => {
+    .get(isAuthenticated, (req, res) => {
         let products = fakerData();
         res.render("fakeProds", {products, hasAny:true})
     });
