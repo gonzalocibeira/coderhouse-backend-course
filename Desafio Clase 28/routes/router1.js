@@ -68,4 +68,15 @@ router
         res.render("fakeProds", {products, hasAny:true})
     });
 
+router.get("/info", (req, res) => {
+    let args = process.argv;
+    let so = process.platform;
+    let nodeVer = process.version;
+    let rss = process.memoryUsage.rss();
+    let execPath = process.execPath;
+    let pId = process.pid;
+    let folder = process.cwd();
+    res.render("info", {args, so, nodeVer, rss, execPath, pId, folder})
+});
+
 export default router;
