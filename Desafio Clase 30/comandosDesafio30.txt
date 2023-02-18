@@ -1,0 +1,11 @@
+Forever:
+* Ejecutar en modo fork --> forever start desafioClase30.js -p=8080 -m=fork
+* Ejecutar en modo cluster --> forever start desafioClase30.js -p=8080 -m=cluster
+* Listar procesos por SO (macOS) --> ps -e
+* Listar procesos por pm2 --> forever list
+
+PM2:
+* Ejecutar en modo fork --> pm2 start desafioClase30.js --watch -- -p=8080
+* Ejecutar en modo cluster --> pm2 start desafioClase30.js --watch -i max -- -p=8080
+* Listar procesos por SO (macOS) --> ps -e
+* Listar procesos por pm2 --> pm2 list
