@@ -9,3 +9,17 @@ PM2:
 * Ejecutar en modo cluster --> pm2 start desafioClase30.js --watch -i max -- -p=8080
 * Listar procesos por SO (macOS) --> ps -e
 * Listar procesos por pm2 --> pm2 list
+
+NGINX:
++ Consigna 1:
+    * Usar la primera configuracion de nginx.conf
+    * /api/randoms escuchando en cluster en 8081 --> node serverAPIRandom.js -p 8081 -m cluster
+    * resto de consultas a 8080 --> node desafioClase30.js -p 8080
+
++ Consigna 2:
+    * Usar la segunda configuracion de nginx.conf
+    * /api/randoms en 4 servidores:
+        + pm2 start serverAPIRandom.js -p 8082
+        + pm2 start serverAPIRandom.js -p 8083
+        + pm2 start serverAPIRandom.js -p 8084
+        + pm2 start serverAPIRandom.js -p 8085

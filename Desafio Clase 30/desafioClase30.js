@@ -8,7 +8,6 @@ import { Server as IOServer } from "socket.io";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import router1 from "./routes/router1.js";
-import routerChild from "./routes/routerChild.js";
 import { User } from "./models/user.model.js"
 import { engine } from "express-handlebars";
 import { faker } from '@faker-js/faker';
@@ -83,8 +82,6 @@ app.use(json());
 app.use(urlencoded({extended: true}));
 
 app.use("/", router1);
-app.use("/api", routerChild);
-
 
 mongoose.set("strictQuery", true);
 await mongoose.connect("mongodb://localhost:27017/ecommerce");
