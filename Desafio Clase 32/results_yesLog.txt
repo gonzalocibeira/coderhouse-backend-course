@@ -1,0 +1,905 @@
+Statistical profiling result from yesLog.log, (1878 ticks, 18 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+     50    2.7%          /usr/lib/system/libsystem_kernel.dylib
+     26    1.4%          /usr/lib/system/libsystem_c.dylib
+     22    1.2%          /usr/lib/system/libsystem_pthread.dylib
+     19    1.0%          /usr/lib/system/libsystem_malloc.dylib
+     15    0.8%          /usr/lib/libc++.1.dylib
+      2    0.1%          /usr/lib/system/libsystem_platform.dylib
+      2    0.1%          /usr/lib/libobjc.A.dylib
+      2    0.1%          /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+      1    0.1%          /usr/lib/libc++abi.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     11    0.6%    0.6%  LazyCompile: *wrap /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      6    0.3%    0.3%  LazyCompile: *parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      5    0.3%    0.3%  LazyCompile: *normalizeString node:path:66:25
+      3    0.2%    0.2%  RegExp: (?:\r\n?|\n).*
+      3    0.2%    0.2%  LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:174:29
+      2    0.1%    0.1%  RegExp: ^(?:\{\{(~)?\*?)
+      2    0.1%    0.1%  LazyCompile: *relative node:path:1190:11
+      2    0.1%    0.1%  LazyCompile: *preparePath /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:63:21
+      2    0.1%    0.1%  LazyCompile: *next /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      2    0.1%    0.1%  LazyCompile: *next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:177:16
+      2    0.1%    0.1%  LazyCompile: *compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2    0.1%    0.1%  LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+      2    0.1%    0.1%  LazyCompile: *SourceNode_add /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:172:51
+      2    0.1%    0.1%  Function: ^set /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/application.js:359:23
+      1    0.1%    0.1%  RegExp: ^.*[\.\/\\]
+      1    0.1%    0.1%  RegExp: ^(?:\}\}\}\})
+      1    0.1%    0.1%  RegExp: ^(?:\{\{(~)?\/)
+      1    0.1%    0.1%  RegExp: ^(?:\{\{(~)?#\*?)
+      1    0.1%    0.1%  RegExp: ^(?:\{\{(~)?![\s\S]*?\}\})
+      1    0.1%    0.1%  RegExp: ^(?:"(\\["]|[^"])*")
+      1    0.1%    0.1%  RegExp: [&<>"'`=]
+      1    0.1%    0.1%  LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:23:22
+      1    0.1%    0.1%  LazyCompile: *resolve node:path:1091:10
+      1    0.1%    0.1%  LazyCompile: *popStack /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:960:30
+      1    0.1%    0.1%  LazyCompile: *join node:path:1166:7
+      1    0.1%    0.1%  LazyCompile: *invokeAmbiguous /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1    0.1%    0.1%  LazyCompile: *extend /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/utils.js:28:16
+      1    0.1%    0.1%  LazyCompile: *cpus node:os:141:14
+      1    0.1%    0.1%  LazyCompile: *appendEscaped /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1    0.1%    0.1%  LazyCompile: *anonymous /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      1    0.1%    0.1%  LazyCompile: *__generator /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:27:58
+      1    0.1%    0.1%  LazyCompile: *Module._nodeModulePaths node:internal/modules/cjs/loader:676:37
+      1    0.1%    0.1%  LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1    0.1%    0.1%  LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1    0.1%    0.1%  Function: ^socketOnDrain node:_http_server:709:23
+      1    0.1%    0.1%  Function: ^setupHelperArgs /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      1    0.1%    0.1%  Function: ^push node:internal/fixed_queue:75:7
+      1    0.1%    0.1%  Function: ^popState /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:536:40
+      1    0.1%    0.1%  Function: ^parseExtendedQueryString /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/utils.js:289:34
+      1    0.1%    0.1%  Function: ^next /Users/turco/WebDev/coderhouse-backend-course/node_modules/send/index.js:728:17
+      1    0.1%    0.1%  Function: ^next /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1    0.1%    0.1%  Function: ^isRegExp /Users/turco/WebDev/coderhouse-backend-course/node_modules/qs/lib/utils.js:214:33
+      1    0.1%    0.1%  Function: ^isObjectLike /Users/turco/WebDev/coderhouse-backend-course/node_modules/bson/lib/parser/utils.js:95:22
+      1    0.1%    0.1%  Function: ^getOwn node:internal/bootstrap/loaders:187:16
+      1    0.1%    0.1%  Function: ^getDefaultTriggerAsyncId node:internal/async_hooks:432:34
+      1    0.1%    0.1%  Function: ^get node:internal/streams/duplex:103:8
+      1    0.1%    0.1%  Function: ^get node:internal/console/constructor:209:14
+      1    0.1%    0.1%  Function: ^get node:_http_incoming:112:16
+      1    0.1%    0.1%  Function: ^extname node:path:1385:10
+      1    0.1%    0.1%  Function: ^createWriteWrap node:internal/stream_base_commons:109:25
+      1    0.1%    0.1%  Function: ^compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    0.1%    0.1%  Function: ^_write node:internal/streams/writable:286:16
+      1    0.1%    0.1%  Function: ^ReadFileContext node:internal/fs/read_file_context:72:14
+
+ [C++]:
+   ticks  total  nonlib   name
+    819   43.6%   47.1%  T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+    250   13.3%   14.4%  T node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+    212   11.3%   12.2%  T node::loader::ModuleWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+    179    9.5%   10.3%  t __posix_spawn_file_actions_grow
+     59    3.1%    3.4%  T node::builtins::BuiltinLoader::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     27    1.4%    1.6%  T _semaphore_destroy
+     27    1.4%    1.6%  T _mach_get_times
+     13    0.7%    0.7%  T _mach_vm_map
+      8    0.4%    0.5%  T _mach_port_type
+      5    0.3%    0.3%  T _semaphore_create
+      5    0.3%    0.3%  T __simple_getenv
+      3    0.2%    0.2%  t void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)1>(v8::FunctionCallbackInfo<v8::Value> const&)
+      3    0.2%    0.2%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      2    0.1%    0.1%  t __os_once_gate_wait
+      2    0.1%    0.1%  T _task_info
+      2    0.1%    0.1%  T _mig_dealloc_reply_port
+      2    0.1%    0.1%  T _mach_port_allocate
+      1    0.1%    0.1%  t void std::__1::__tree_remove<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+      1    0.1%    0.1%  t std::__1::__hash_table<unsigned long, std::__1::hash<unsigned long>, std::__1::equal_to<unsigned long>, std::__1::allocator<unsigned long> >::remove(std::__1::__hash_const_iterator<std::__1::__hash_node<unsigned long, void*>*>)
+      1    0.1%    0.1%  t node::Buffer::(anonymous namespace)::GetZeroFillToggle(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  t __pthread_mutex_global_init
+      1    0.1%    0.1%  t __os_once_gate_broadcast
+      1    0.1%    0.1%  t ___pfz_setup
+      1    0.1%    0.1%  T node::binding::GetInternalBinding(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::binding::DLOpen(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::UVException(v8::Isolate*, int, char const*, char const*, char const*, char const*)
+      1    0.1%    0.1%  T node::NodeArrayBufferAllocator::AllocateUninitialized(unsigned long)
+      1    0.1%    0.1%  T node::InternalCallbackScope::Close()
+      1    0.1%    0.1%  T node::AsyncWrap::EmitTraceEventBefore()
+      1    0.1%    0.1%  T node::AsyncHooks::push_async_context(double, double, v8::Local<v8::Object>)
+      1    0.1%    0.1%  T _task_dyld_process_info_notify_get
+      1    0.1%    0.1%  T _os_unfair_recursive_lock_unlock
+      1    0.1%    0.1%  T _necp_client_action
+      1    0.1%    0.1%  T __platform_strcmp
+      1    0.1%    0.1%  T _OSAtomicDecrement32
+
+ [Summary]:
+   ticks  total  nonlib   name
+     85    4.5%    4.9%  JavaScript
+   1636   87.1%   94.1%  C++
+    126    6.7%    7.2%  GC
+    139    7.4%          Shared libraries
+     18    1.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+    713   54.9%   38.0%  T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+    250   19.2%   13.3%  T node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+    212   16.3%   11.3%  T node::loader::ModuleWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+     59    4.5%    3.1%  T node::builtins::BuiltinLoader::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     21    1.6%    1.1%  T _semaphore_destroy
+     18    1.4%    1.0%  T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      5    0.4%    0.3%  T _semaphore_create
+      3    0.2%    0.2%  t void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)1>(v8::FunctionCallbackInfo<v8::Value> const&)
+      3    0.2%    0.2%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      3    0.2%    0.2%  T __simple_getenv
+      2    0.2%    0.1%  t __os_once_gate_wait
+      2    0.2%    0.1%  T _task_info
+      1    0.1%    0.1%  t void std::__1::__tree_remove<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+      1    0.1%    0.1%  t node::Buffer::(anonymous namespace)::GetZeroFillToggle(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::loader::ModuleWrap::Link(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::binding::GetInternalBinding(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::binding::DLOpen(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::NodeArrayBufferAllocator::AllocateUninitialized(unsigned long)
+      1    0.1%    0.1%  T _mig_dealloc_reply_port
+      1    0.1%    0.1%  T _OSAtomicDecrement32
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+    819   43.6%  T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+    101   12.3%    Function: ^readSync node:fs:705:18
+    101  100.0%      Function: ^tryReadSync node:fs:444:21
+    100   99.0%        Function: ^readFileSync node:fs:465:22
+     92   92.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+     92  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:1025:33
+      6    6.0%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      4   66.7%            Function: ^Module.load node:internal/modules/cjs/loader:1025:33
+      2   33.3%            LazyCompile: ~Module.load node:internal/modules/cjs/loader:1025:33
+      2    2.0%          LazyCompile: ~Module._extensions..json node:internal/modules/cjs/loader:1218:39
+      2  100.0%            LazyCompile: *Module._load node:internal/modules/cjs/loader:807:24
+     51    6.2%    T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      6   11.8%      LazyCompile: *next /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      6  100.0%        LazyCompile: *parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      4   66.7%          LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      4  100.0%            LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      2   33.3%          Function: ^parseWithoutProcessing /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      2  100.0%            Function: ^parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      3    5.9%      T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1   33.3%        LazyCompile: *quotedString /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      1  100.0%          Function: ^pushSource /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1  100.0%            Function: ^append /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1   33.3%        LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:130:39
+      1  100.0%          T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%            Function: ^objectLiteral /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:123:40
+      2    3.9%      LazyCompile: *quotedString /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      2  100.0%        Function: ^pushSource /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1   50.0%          Function: ^appendEscaped /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%            LazyCompile: *compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   50.0%          Function: ^append /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1  100.0%            Function: ^compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2    3.9%      Function: ^readPackage node:internal/modules/cjs/loader:326:21
+      2  100.0%        Function: ^readPackageScope node:internal/modules/cjs/loader:368:26
+      2  100.0%          Function: ^trySelf node:internal/modules/cjs/loader:488:17
+      2  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:904:35
+      2    3.9%      Function: ^quotedString /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      2  100.0%        Function: ^pushSource /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1   50.0%          Function: ^appendEscaped /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%            Function: ^compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   50.0%          Function: ^append /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1  100.0%            Function: ^compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2    3.9%      Function: ^mergeSource /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:267:36
+      2  100.0%        LazyCompile: *compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   50.0%          LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%            LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1   50.0%          Function: ^compileInput /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            Function: ^ret /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      2    3.9%      Function: ^header /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/response.js:777:29
+      1   50.0%        Function: ^send /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/response.js:111:25
+      1  100.0%          LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1   50.0%        Function: ^contentType /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/response.js:619:32
+      1  100.0%          Function: ^send /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/response.js:111:25
+      1  100.0%            Function: ^done /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/response.js:1033:27
+      1    2.0%      LazyCompile: ~resolvePackageTargetString node:internal/modules/esm/resolve:396:36
+      1  100.0%        LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:490:30
+      1  100.0%          LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:490:30
+      1  100.0%            LazyCompile: ~packageExportsResolve node:internal/modules/esm/resolve:596:31
+      1    2.0%      LazyCompile: ~onParseError node:internal/url:564:22
+      1  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%          LazyCompile: ~URL node:internal/url:637:14
+      1  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1034:30
+      1    2.0%      LazyCompile: ~command /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connection.js:274:12
+      1  100.0%        LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:78:43
+      1  100.0%          LazyCompile: ~prepareHandshakeDocument /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:151:34
+      1  100.0%            LazyCompile: ~performInitialHandshake /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:62:33
+      1    2.0%      LazyCompile: ~braceExpand /Users/turco/WebDev/coderhouse-backend-course/node_modules/minimatch/minimatch.js:109:21
+      1  100.0%        LazyCompile: ~braceExpand /Users/turco/WebDev/coderhouse-backend-course/node_modules/minimatch/minimatch.js:409:15
+      1  100.0%          LazyCompile: ~make /Users/turco/WebDev/coderhouse-backend-course/node_modules/minimatch/minimatch.js:188:8
+      1  100.0%            LazyCompile: ~Minimatch /Users/turco/WebDev/coderhouse-backend-course/node_modules/minimatch/minimatch.js:163:15
+      1    2.0%      LazyCompile: ~_handleAdd /Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/firestore/node_modules/protobufjs/src/root.js:290:48
+      1  100.0%        LazyCompile: ~_handleAdd /Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/firestore/node_modules/protobufjs/src/root.js:290:48
+      1  100.0%          LazyCompile: ~_handleAdd /Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/firestore/node_modules/protobufjs/src/root.js:290:48
+      1  100.0%            Function: ^onAdd /Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/firestore/node_modules/protobufjs/src/object.js:119:50
+      1    2.0%      LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/minimatch/minimatch.js:222:19
+      1  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%          LazyCompile: ~make /Users/turco/WebDev/coderhouse-backend-course/node_modules/minimatch/minimatch.js:188:8
+      1  100.0%            LazyCompile: ~Minimatch /Users/turco/WebDev/coderhouse-backend-course/node_modules/minimatch/minimatch.js:163:15
+      1    2.0%      LazyCompile: *setupParams /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1034:36
+      1  100.0%        LazyCompile: *setupHelperArgs /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      1  100.0%          LazyCompile: *invokeAmbiguous /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%            LazyCompile: *compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    2.0%      LazyCompile: *realpathSync node:fs:2474:22
+      1  100.0%        Function: ^toRealPath node:internal/modules/cjs/loader:440:20
+      1  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:431:17
+      1  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:447:23
+      1    2.0%      LazyCompile: *readPackageScope node:internal/modules/cjs/loader:368:26
+      1  100.0%        Function: ^trySelf node:internal/modules/cjs/loader:488:17
+      1  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:904:35
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:807:24
+      1    2.0%      LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    2.0%      LazyCompile: *parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/minimatch/minimatch.js:413:9
+      1  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%          Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/minimatch/minimatch.js:222:19
+      1  100.0%            T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1    2.0%      LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:130:39
+      1  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%          Function: ^objectLiteral /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:123:40
+      1  100.0%            Function: ^objectLiteral /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1002:40
+      1    2.0%      LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%        LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            Function: ^fulfilled /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    2.0%      Function: ~<anonymous> node:internal/modules/esm/assert:1:1
+      1  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1  100.0%          Function: ~<anonymous> node:internal/modules/esm/module_map:1:1
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    2.0%      Function: ~<anonymous> node:internal/modules/cjs/helpers:1:1
+      1  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1  100.0%          Function: ~<anonymous> node:internal/source_map/source_map_cache:1:1
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    2.0%      Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    2.0%      Function: ^stat node:internal/modules/cjs/loader:158:14
+      1  100.0%        Function: ^Module._findPath node:internal/modules/cjs/loader:541:28
+      1  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:904:35
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:807:24
+      1    2.0%      Function: ^setHeader node:_http_outgoing:642:57
+      1  100.0%        Function: ^header /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/response.js:777:29
+      1  100.0%          Function: ^contentType /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/response.js:619:32
+      1  100.0%            Function: ^send /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/response.js:111:25
+      1    2.0%      Function: ^sendToListeners /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/clustering.js:24:25
+      1  100.0%        Function: ^send /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/clustering.js:89:9
+      1  100.0%          Function: ^_log /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:163:7
+      1  100.0%            Function: ^log /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:139:6
+      1    2.0%      Function: ^normalize node:path:1127:12
+      1  100.0%        Function: ^pipe /Users/turco/WebDev/coderhouse-backend-course/node_modules/send/index.js:506:43
+      1  100.0%          Function: ^serveStatic /Users/turco/WebDev/coderhouse-backend-course/node_modules/serve-static/index.js:72:31
+      1  100.0%            Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      1    2.0%      Function: ^next /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1  100.0%        LazyCompile: ~lex /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      1  100.0%          LazyCompile: ~lex /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:295:25
+      1  100.0%            LazyCompile: ~parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1    2.0%      Function: ^fn node:internal/util:349:14
+      1  100.0%        Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:368:47
+      1  100.0%          LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    2.0%      Function: ^expressInit /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%        Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          Function: ^trim_prefix /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            LazyCompile: *next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:177:16
+      1    2.0%      Function: ^deserializeObject /Users/turco/WebDev/coderhouse-backend-course/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%        LazyCompile: ~deserialize /Users/turco/WebDev/coderhouse-backend-course/node_modules/bson/lib/parser/deserializer.js:36:21
+      1  100.0%          LazyCompile: ~deserialize /Users/turco/WebDev/coderhouse-backend-course/node_modules/bson/lib/bson.js:161:21
+      1  100.0%            LazyCompile: ~parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/commands.js:426:10
+      1    2.0%      Function: ^addListener node:events:604:58
+      1  100.0%        Function: ^Readable.on node:internal/streams/readable:886:33
+      1  100.0%          Function: ^socketListenerWrap node:_http_server:1118:37
+      1  100.0%            Function: ^assignSocket node:_http_server:280:62
+      1    2.0%      Function: ^Module._findPath node:internal/modules/cjs/loader:541:28
+      1  100.0%        Function: ^Module._resolveFilename node:internal/modules/cjs/loader:904:35
+      1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:807:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:1053:36
+      1    2.0%      Function: ^LoggingEvent /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/LoggingEvent.js:58:14
+      1  100.0%        Function: ^_log /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:163:7
+      1  100.0%          Function: ^log /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:139:6
+      1  100.0%            Function: ^Logger.<computed> /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:234:44
+      1    2.0%      Function: ^<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/node_modules/@faker-js/faker/dist/esm/chunk-SBNWBO2R.mjs:1:1
+      1  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%          T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            LazyCompile: ~run node:internal/modules/esm/module_job:188:12
+      1    2.0%      Function: ^<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/node_modules/@faker-js/faker/dist/esm/chunk-AC7CIJLS.mjs:1:1
+      1  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%          T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            LazyCompile: ~run node:internal/modules/esm/module_job:188:12
+      1    2.0%      Function: ^<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/Desafio%20Clase%2032/routes/router1.js:89:36
+      1  100.0%        Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          Function: ^next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            Function: ^compression /Users/turco/WebDev/coderhouse-backend-course/node_modules/compression/index.js:59:31
+      1    2.0%      Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:368:47
+      1  100.0%        LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1    2.0%      Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%        Function: ^step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            Function: ^fulfilled /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+     21    2.6%    Function: ^read node:internal/modules/package_json_reader:16:14
+     16   76.2%      Function: ^readPackage node:internal/modules/cjs/loader:326:21
+     15   93.8%        Function: ^resolveExports node:internal/modules/cjs/loader:519:24
+     15  100.0%          Function: ^Module._findPath node:internal/modules/cjs/loader:541:28
+     13   86.7%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:904:35
+      2   13.3%            LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:904:35
+      1    6.3%        LazyCompile: ~resolveExports node:internal/modules/cjs/loader:519:24
+      1  100.0%          Function: ^Module._findPath node:internal/modules/cjs/loader:541:28
+      1  100.0%            LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:904:35
+      5   23.8%      Function: ^getPackageConfig node:internal/modules/esm/package_config:40:26
+      4   80.0%        Function: ^packageResolve node:internal/modules/esm/resolve:804:24
+      4  100.0%          Function: ^moduleResolve node:internal/modules/esm/resolve:894:23
+      4  100.0%            Function: ^defaultResolve node:internal/modules/esm/resolve:1034:30
+      1   20.0%        LazyCompile: ~packageResolve node:internal/modules/esm/resolve:804:24
+      1  100.0%          LazyCompile: ~moduleResolve node:internal/modules/esm/resolve:894:23
+      1  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1034:30
+     16    2.0%    Function: ^cpus node:os:141:14
+     16  100.0%      Function: ^<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/Desafio%20Clase%2032/routes/router1.js:89:36
+     16  100.0%        Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+     16  100.0%          Function: ^next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/route.js:116:16
+     16  100.0%            Function: ^compression /Users/turco/WebDev/coderhouse-backend-course/node_modules/compression/index.js:59:31
+     14    1.7%    LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+     14  100.0%      LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+     14  100.0%        LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+     13   92.9%          LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+     11   84.6%            LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+      2   15.4%            Function: ^SourceNode_toString /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:318:61
+      1    7.1%          Function: ^SourceNode_toString /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:318:61
+      1  100.0%            T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+     12    1.5%    Function: ^initialize /Users/turco/WebDev/coderhouse-backend-course/node_modules/passport/lib/middleware/initialize.js:51:29
+      7   58.3%      Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      7  100.0%        Function: ^trim_prefix /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:293:23
+      7  100.0%          LazyCompile: *next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:177:16
+      7  100.0%            Function: ^session /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-session/index.js:179:26
+      5   41.7%      LazyCompile: *trim_prefix /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:293:23
+      5  100.0%        LazyCompile: *next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:177:16
+      5  100.0%          Function: ^session /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-session/index.js:179:26
+      5  100.0%            LazyCompile: *trim_prefix /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:293:23
+     11    1.3%    LazyCompile: *compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     10   90.9%      LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     10  100.0%        LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      8   80.0%          LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      8  100.0%            Function: ^fulfilled /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1   10.0%          LazyCompile: *fulfilled /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1   10.0%          Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            Function: ^fulfilled /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    9.1%      Function: ^compileInput /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%        Function: ^ret /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%          Function: ^ExpressHandlebars._renderTemplate /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1  100.0%            Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     10    1.2%    LazyCompile: *wrap /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      2   20.0%      LazyCompile: *resolvePath /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      2  100.0%        Function: ^lookupOnContext /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      2  100.0%          LazyCompile: *compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   50.0%            LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1   50.0%            Function: ^compileInput /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      2   20.0%      LazyCompile: *invokeAmbiguous /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      2  100.0%        LazyCompile: *compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2  100.0%          LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      2  100.0%            LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      2   20.0%      LazyCompile: *castChunk /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      2  100.0%        Function: ^generateList /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:143:38
+      2  100.0%          Function: ^objectLiteral /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:123:40
+      2  100.0%            Function: ^objectLiteral /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1002:40
+      1   10.0%      LazyCompile: *aliasable /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1006:32
+      1  100.0%        Function: ^appendEscaped /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%          Function: ^compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileInput /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1   10.0%      Function: ^push /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1  100.0%        Function: ^replaceStack /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1  100.0%          Function: ^append /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1  100.0%            Function: ^compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   10.0%      Function: ^castChunk /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      1  100.0%        Function: ^generateList /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:143:38
+      1  100.0%          Function: ^objectLiteral /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:123:40
+      1  100.0%            Function: ^objectLiteral /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1002:40
+      1   10.0%      Function: ^appendToBuffer /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:42:42
+      1  100.0%        Function: ^appendEscaped /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%          Function: ^compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileInput /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      9    1.1%    Function: ^Hash node:internal/crypto/hash:62:14
+      9  100.0%      Function: ^createHash node:crypto:132:20
+      8   88.9%        Function: ^hash /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-session/index.js:596:14
+      4   50.0%          Function: ^isModified /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-session/index.js:425:24
+      4  100.0%            Function: ^shouldSave /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-session/index.js:440:24
+      4   50.0%          Function: ^generate /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-session/index.js:363:22
+      4  100.0%            Function: ^session /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-session/index.js:179:26
+      1   11.1%        Function: ^entitytag /Users/turco/WebDev/coderhouse-backend-course/node_modules/etag/index.js:39:20
+      1  100.0%          Function: ^etag /Users/turco/WebDev/coderhouse-backend-course/node_modules/etag/index.js:70:15
+      1  100.0%            Function: ^generateETag /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/utils.js:273:32
+
+    250   13.3%  T node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+    249   99.6%    Function: ^compileFunction node:vm:316:25
+    248   99.6%      Function: ^wrapSafe node:internal/modules/cjs/loader:1073:18
+    248  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+    245   98.8%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+    241   98.4%            Function: ^Module.load node:internal/modules/cjs/loader:1025:33
+      4    1.6%            LazyCompile: *Module._load node:internal/modules/cjs/loader:807:24
+      3    1.2%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      3  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:1025:33
+
+    212   11.3%  T node::loader::ModuleWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+    212  100.0%    Function: ^moduleStrategy node:internal/modules/esm/translators:114:56
+    212  100.0%      Function: ^moduleProvider node:internal/modules/esm/loader:452:28
+    212  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+
+    179    9.5%  t __posix_spawn_file_actions_grow
+
+     59    3.1%  T node::builtins::BuiltinLoader::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     38   64.4%    Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+     31   81.6%      Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      5   16.1%        Function: ~<anonymous> node:http2:1:1
+      5  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      5  100.0%            Function: ^compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      4   12.9%        Function: ~<anonymous> node:tls:1:1
+      4  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      4  100.0%            Function: ^compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      3    9.7%        Function: ~<anonymous> node:http:1:1
+      3  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      3  100.0%            LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      3    9.7%        Function: ~<anonymous> node:_http_client:1:1
+      3  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      3  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2    6.5%        LazyCompile: ~lazyWebCrypto node:crypto:125:23
+      2  100.0%          LazyCompile: ~get node:crypto:369:8
+      2  100.0%            T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      2    6.5%        Function: ~<anonymous> node:internal/child_process:1:1
+      2  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      2  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2    6.5%        Function: ~<anonymous> node:child_process:1:1
+      2  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      2  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2    6.5%        Function: ~<anonymous> node:assert:1:1
+      2  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      2  100.0%            Function: ^compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      1    3.2%        LazyCompile: ~initCJSParse node:internal/modules/esm/translators:58:28
+      1  100.0%          LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:147:60
+      1  100.0%            LazyCompile: ~moduleProvider node:internal/modules/esm/loader:452:28
+      1    3.2%        LazyCompile: ~get node:dns:350:8
+      1  100.0%          T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%            Function: ^getOwn node:internal/bootstrap/loaders:187:16
+      1    3.2%        Function: ~<anonymous> node:tty:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1  100.0%            LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      1    3.2%        Function: ~<anonymous> node:internal/http2/core:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    3.2%        Function: ~<anonymous> node:internal/http2/compat:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    3.2%        Function: ~<anonymous> node:internal/cluster/primary:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    3.2%        Function: ~<anonymous> node:_http_outgoing:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    3.2%        Function: ~<anonymous> node:_http_common:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      5   13.2%      Function: ^compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      5  100.0%        Function: ^loadBuiltinModule node:internal/modules/cjs/helpers:45:27
+      5  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:807:24
+      5  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:1053:36
+      2    5.3%      LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      2  100.0%        LazyCompile: ~loadBuiltinModule node:internal/modules/cjs/helpers:45:27
+      2  100.0%          LazyCompile: ~builtinStrategy node:internal/modules/esm/translators:253:58
+      2  100.0%            LazyCompile: ~moduleProvider node:internal/modules/esm/loader:452:28
+     19   32.2%    Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      3   15.8%      Function: ~<anonymous> node:internal/modules/esm/fetch_module:1:1
+      3  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      3  100.0%          Function: ~<anonymous> node:internal/modules/esm/get_format:1:1
+      3  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2   10.5%      LazyCompile: ~initializeCJSLoader node:internal/process/pre_execution:535:29
+      2  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      2  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      2   10.5%      Function: ~<anonymous> node:internal/process/esm_loader:1:1
+      2  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2  100.0%          Function: ~<anonymous> node:internal/modules/cjs/loader:1:1
+      2  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2   10.5%      Function: ~<anonymous> node:internal/modules/esm/load:1:1
+      2  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2  100.0%          Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      2  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2   10.5%      Function: ~<anonymous> node:internal/fs/promises:1:1
+      2  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2  100.0%          Function: ~<anonymous> node:internal/modules/esm/load:1:1
+      2  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    5.3%      LazyCompile: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%        Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    5.3%      LazyCompile: ~initializeSourceMapsHandlers node:internal/process/pre_execution:574:38
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    5.3%      LazyCompile: ~initializeReport node:internal/process/pre_execution:312:26
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    5.3%      LazyCompile: ~get BlockList node:net:1980:16
+      1  100.0%        Function: ~<anonymous> node:internal/modules/esm/fetch_module:1:1
+      1  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1  100.0%            Function: ~<anonymous> node:internal/modules/esm/get_format:1:1
+      1    5.3%      Function: ~<anonymous> node:internal/source_map/source_map_cache:1:1
+      1  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1  100.0%          LazyCompile: ~initializeSourceMapsHandlers node:internal/process/pre_execution:574:38
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1    5.3%      Function: ~<anonymous> node:internal/modules/esm/resolve:1:1
+      1  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1  100.0%          Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    5.3%      Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      1  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1  100.0%          Function: ~<anonymous> node:internal/process/esm_loader:1:1
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    5.3%      Function: ~<anonymous> node:internal/modules/cjs/loader:1:1
+      1  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1  100.0%          LazyCompile: ~initializeCJSLoader node:internal/process/pre_execution:535:29
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      2    3.4%    Function: ~<anonymous> node:internal/main/run_main_module:1:1
+
+     50    2.7%  /usr/lib/system/libsystem_kernel.dylib
+     41   82.0%    LazyCompile: *cpus node:os:141:14
+     41  100.0%      Function: ^<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/Desafio%20Clase%2032/routes/router1.js:89:36
+     41  100.0%        Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+     41  100.0%          Function: ^next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/route.js:116:16
+     41  100.0%            Function: ^compression /Users/turco/WebDev/coderhouse-backend-course/node_modules/compression/index.js:59:31
+      1    2.0%    T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%      Function: ^setWriteHeadHeaders /Users/turco/WebDev/coderhouse-backend-course/node_modules/on-headers/index.js:105:30
+      1  100.0%        Function: ^writeHead /Users/turco/WebDev/coderhouse-backend-course/node_modules/on-headers/index.js:28:29
+      1  100.0%          Function: ^_implicitHeader node:_http_server:333:68
+      1  100.0%            Function: ^end /Users/turco/WebDev/coderhouse-backend-course/node_modules/compression/index.js:92:28
+      1    2.0%    LazyCompile: ~resolver node:internal/dns/callback_resolver:56:18
+      1  100.0%      LazyCompile: ~createResolverClass node:internal/dns/utils:286:29
+      1  100.0%        Function: ~<anonymous> node:internal/dns/callback_resolver:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1    2.0%    LazyCompile: ~realpathSync node:fs:2474:22
+      1  100.0%      LazyCompile: ~toRealPath node:internal/modules/cjs/loader:440:20
+      1  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:541:28
+      1  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:15:25
+      1  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      1    2.0%    LazyCompile: ~onParseError node:internal/url:564:22
+      1  100.0%      T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%        LazyCompile: ~URL node:internal/url:637:14
+      1  100.0%          LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1034:30
+      1  100.0%            LazyCompile: ~ObjectDefineProperty.__proto__ node:internal/modules/esm/loader:148:5
+      1    2.0%    LazyCompile: ~createAndConnectServer /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/topology.js:474:32
+      1  100.0%      LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/topology.js:173:57
+      1  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%          LazyCompile: ~connect /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/topology.js:154:12
+      1  100.0%            LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/mongo_client.js:136:49
+      1    2.0%    LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+      1  100.0%      LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+      1  100.0%        LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+      1  100.0%          LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+      1  100.0%            LazyCompile: *SourceNode_walk /Users/turco/WebDev/coderhouse-backend-course/node_modules/source-map/lib/source-node.js:221:53
+      1    2.0%    Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:1:1
+      1  100.0%      Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:1025:33
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:807:24
+
+     27    1.4%  T _semaphore_destroy
+      2    7.4%    T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1   50.0%      LazyCompile: ~parseOptions /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/connection_string.js:195:22
+      1  100.0%        LazyCompile: ~MongoClient /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/mongo_client.js:43:16
+      1  100.0%          LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/mongo_client.js:234:43
+      1  100.0%            LazyCompile: ~maybeCallback /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/utils.js:336:23
+      1   50.0%      LazyCompile: ~next /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1  100.0%        LazyCompile: ~lex /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      1  100.0%          LazyCompile: ~lex /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:295:25
+      1  100.0%            LazyCompile: ~parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1    3.7%    LazyCompile: ~wrapfunction /Users/turco/WebDev/coderhouse-backend-course/node_modules/depd/index.js:413:23
+      1  100.0%      Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/body-parser/index.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1  100.0%            LazyCompile: ~Module.load node:internal/modules/cjs/loader:1025:33
+      1    3.7%    LazyCompile: ~parse node:internal/deps/cjs-module-lexer/dist/lexer:1:131
+      1  100.0%      LazyCompile: ~cjsPreparseModuleExports node:internal/modules/esm/translators:193:34
+      1  100.0%        LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:147:60
+      1  100.0%          T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1    3.7%    LazyCompile: ~makeAbs /Users/turco/WebDev/coderhouse-backend-course/node_modules/glob/common.js:203:18
+      1  100.0%      Function: ^Glob._makeAbs /Users/turco/WebDev/coderhouse-backend-course/node_modules/glob/glob.js:255:36
+      1  100.0%        LazyCompile: ~Glob._readdirError /Users/turco/WebDev/coderhouse-backend-course/node_modules/glob/glob.js:581:41
+      1  100.0%          LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/glob/glob.js:551:19
+      1  100.0%            Function: ^<anonymous> node:fs:197:10
+      1    3.7%    LazyCompile: ~finalizeResolution node:internal/modules/esm/resolve:290:28
+      1  100.0%      Function: ^moduleResolve node:internal/modules/esm/resolve:894:23
+      1  100.0%        LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:1034:30
+      1  100.0%          Function: ^ObjectDefineProperty.__proto__ node:internal/modules/esm/loader:148:5
+      1  100.0%            Function: ^resolve node:internal/modules/esm/loader:788:16
+      1    3.7%    LazyCompile: ~exports.createImpl /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URLSearchParams.js:55:22
+      1  100.0%      LazyCompile: ~URLImpl /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URL-impl.js:7:14
+      1  100.0%        LazyCompile: ~exports.setup /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URL.js:49:17
+      1  100.0%          LazyCompile: ~URL /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb-connection-string-url/node_modules/whatwg-url/lib/URL.js:90:16
+      1  100.0%            LazyCompile: ~URLWithoutHost /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb-connection-string-url/lib/index.js:74:1
+      1    3.7%    LazyCompile: ~checkServer /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/monitor.js:143:21
+      1  100.0%      LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/monitor.js:226:12
+      1  100.0%        LazyCompile: ~MonitorInterval._executeAndReschedule /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/monitor.js:337:38
+      1  100.0%          LazyCompile: ~listOnTimeout node:internal/timers:512:25
+      1  100.0%            LazyCompile: ~processTimers node:internal/timers:492:25
+      1    3.7%    LazyCompile: ~appendFileSync node:fs:2273:24
+      1  100.0%      LazyCompile: ~_renewWriteStream /Users/turco/WebDev/coderhouse-backend-course/node_modules/streamroller/lib/RollingFileWriteStream.js:261:20
+      1  100.0%        LazyCompile: ~RollingFileWriteStream /Users/turco/WebDev/coderhouse-backend-course/node_modules/streamroller/lib/RollingFileWriteStream.js:40:14
+      1  100.0%          LazyCompile: ~RollingFileStream /Users/turco/WebDev/coderhouse-backend-course/node_modules/streamroller/lib/RollingFileStream.js:5:14
+      1  100.0%            LazyCompile: ~openTheStream /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/appenders/file.js:63:25
+      1    3.7%    LazyCompile: ~afterShutdown node:net:511:23
+      1    3.7%    LazyCompile: ~__extends /Users/turco/WebDev/coderhouse-backend-course/node_modules/bson/lib/error.js:9:21
+      1  100.0%      Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/bson/lib/error.js:20:41
+      1  100.0%        Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/bson/lib/error.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1    3.7%    LazyCompile: ~SocketAddress node:internal/socketaddress:47:14
+      1  100.0%      LazyCompile: ~addAddress node:internal/blocklist:60:13
+      1  100.0%        Function: ~<anonymous> node:internal/modules/esm/fetch_module:1:1
+      1  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1  100.0%            Function: ~<anonymous> node:internal/modules/esm/get_format:1:1
+      1    3.7%    LazyCompile: ~Socket node:net:329:16
+      1  100.0%      LazyCompile: ~WriteStream node:tty:84:21
+      1  100.0%        LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:45:35
+      1  100.0%          LazyCompile: ~getStderr node:internal/bootstrap/switches/is_main_thread:168:19
+      1  100.0%            Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/debug/src/node.js:1:1
+      1    3.7%    LazyCompile: ~Schema.path /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/schema.js:894:33
+      1  100.0%      LazyCompile: ~Document.$__setSchema /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/document.js:3466:43
+      1  100.0%        LazyCompile: ~compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/model.js:5067:33
+      1  100.0%          LazyCompile: ~Mongoose._model /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/index.js:609:37
+      1  100.0%            LazyCompile: ~Mongoose.model /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/index.js:538:36
+      1    3.7%    LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%      LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1  100.0%        Function: ^Module.load node:internal/modules/cjs/loader:1025:33
+      1  100.0%          LazyCompile: ~Module._load node:internal/modules/cjs/loader:807:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:1053:36
+      1    3.7%    LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/model.js:1471:52
+      1  100.0%      LazyCompile: ~promiseOrCallback /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/helpers/promiseOrCallback.js:8:44
+      1  100.0%        LazyCompile: ~Mongoose._promiseOrCallback /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/index.js:1261:49
+      1  100.0%          LazyCompile: ~createCollection /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/model.js:1422:51
+      1  100.0%            LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/model.js:1362:5
+      1    3.7%    LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:78:43
+      1  100.0%      LazyCompile: ~prepareHandshakeDocument /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:151:34
+      1  100.0%        LazyCompile: ~performInitialHandshake /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:62:33
+      1  100.0%          LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:31:63
+      1  100.0%            LazyCompile: ~callback /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:269:31
+      1    3.7%    Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/readable-stream/errors.js:1:1
+      1  100.0%      Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:1025:33
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:807:24
+      1    3.7%    Function: ^writeU_Int32LE node:internal/buffer:690:24
+      1  100.0%      Function: ^writeInt32LE node:internal/buffer:860:22
+      1  100.0%        LazyCompile: ~toBin /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/commands.js:345:10
+      1  100.0%          LazyCompile: ~writeCommand /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/message_stream.js:40:17
+      1  100.0%            LazyCompile: ~write /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connection.js:427:15
+      1    3.7%    Function: ^writeHead /Users/turco/WebDev/coderhouse-backend-course/node_modules/on-headers/index.js:28:29
+      1  100.0%      Function: ^writeHead /Users/turco/WebDev/coderhouse-backend-course/node_modules/on-headers/index.js:28:29
+      1  100.0%        Function: ^_implicitHeader node:_http_server:333:68
+      1  100.0%          Function: ^end /Users/turco/WebDev/coderhouse-backend-course/node_modules/compression/index.js:92:28
+      1  100.0%            Function: ^send /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/response.js:111:25
+      1    3.7%    Function: ^parserOnHeadersComplete node:_http_common:72:33
+
+     27    1.4%  T _mach_get_times
+
+     26    1.4%  /usr/lib/system/libsystem_c.dylib
+      2    7.7%    LazyCompile: ~patchProcessObject node:internal/process/pre_execution:112:28
+      2  100.0%      LazyCompile: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      2  100.0%        Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    3.8%    LazyCompile: ~stringify node:internal/modules/esm/translators:94:19
+      1  100.0%      LazyCompile: ~moduleStrategy node:internal/modules/esm/translators:114:56
+      1  100.0%        LazyCompile: ~moduleProvider node:internal/modules/esm/loader:452:28
+      1  100.0%          T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1    3.8%    LazyCompile: ~step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%      LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%        LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1  100.0%          T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%            LazyCompile: ~__awaiter /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      1    3.8%    LazyCompile: ~setStreamTimeout node:internal/stream_base_commons:237:26
+      1  100.0%      LazyCompile: ~makeConnection /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:256:24
+      1  100.0%        LazyCompile: ~connect /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connect.js:30:17
+      1  100.0%          LazyCompile: ~checkServer /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/monitor.js:143:21
+      1  100.0%            LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/monitor.js:226:12
+      1    3.8%    LazyCompile: ~reset /Users/turco/WebDev/coderhouse-backend-course/node_modules/lru-cache/index.js:128:9
+      1  100.0%      LazyCompile: ~LRUCache /Users/turco/WebDev/coderhouse-backend-course/node_modules/lru-cache/index.js:28:15
+      1  100.0%        Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/semver/classes/range.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1    3.8%    LazyCompile: ~processWaitQueue /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connection_pool.js:435:21
+      1  100.0%      LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connection_pool.js:183:26
+      1  100.0%        Function: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      1    3.8%    LazyCompile: ~parserOnIncoming node:_http_server:968:26
+      1  100.0%      LazyCompile: ~parserOnHeadersComplete node:_http_common:72:33
+      1    3.8%    LazyCompile: ~module.exports /Users/turco/WebDev/coderhouse-backend-course/node_modules/qs/lib/parse.js:239:27
+      1  100.0%      LazyCompile: ~parseExtendedQueryString /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/utils.js:289:34
+      1  100.0%        LazyCompile: ~query /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/middleware/query.js:39:24
+      1  100.0%          LazyCompile: ~handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            LazyCompile: ~trim_prefix /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:293:23
+      1    3.8%    LazyCompile: ~isComponentSet file:///Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/app/node_modules/@firebase/component/dist/esm/index.esm2017.js:216:19
+      1  100.0%      LazyCompile: ~addComponent file:///Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/app/node_modules/@firebase/component/dist/esm/index.esm2017.js:372:17
+      1  100.0%        LazyCompile: ~initializeApp file:///Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/app/dist/esm/index.esm2017.js:408:23
+      1  100.0%          Script: ~<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/Desafio%20Clase%2032/config/firestoreConfig.js:1:1
+      1  100.0%            T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1    3.8%    LazyCompile: ~getModuleJob node:internal/modules/esm/loader:410:21
+      1  100.0%      T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1    3.8%    LazyCompile: ~db /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/mongo_client.js:214:7
+      1  100.0%      LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/connect-mongo/build/main/lib/MongoStore.js:124:42
+      1  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%          Function: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      1    3.8%    LazyCompile: ~compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%      LazyCompile: ~compileInput /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%        LazyCompile: ~ret /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%          LazyCompile: ~ExpressHandlebars._renderTemplate /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1  100.0%            LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1    3.8%    LazyCompile: ~_log /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:163:7
+      1  100.0%      LazyCompile: ~log /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:139:6
+      1  100.0%        LazyCompile: ~Logger.<computed> /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:234:44
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/Desafio%20Clase%2032/routes/router1.js:89:36
+      1  100.0%            Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      1    3.8%    LazyCompile: ~Run /Users/turco/WebDev/coderhouse-backend-course/node_modules/@mapbox/node-pre-gyp/lib/node-pre-gyp.js:78:13
+      1  100.0%      LazyCompile: ~exports.find /Users/turco/WebDev/coderhouse-backend-course/node_modules/@mapbox/node-pre-gyp/lib/pre-binding.js:17:24
+      1  100.0%        Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/bcrypt/bcrypt.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1    3.8%    LazyCompile: *preparePath /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:63:21
+      1  100.0%      LazyCompile: *anonymous /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      1  100.0%        LazyCompile: *parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%          Function: ^parseWithoutProcessing /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      1  100.0%            Function: ^parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1    3.8%    LazyCompile: *anonymous /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:549:49
+      1  100.0%      LazyCompile: *next /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1  100.0%        LazyCompile: *parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%          Function: ^parseWithoutProcessing /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      1  100.0%            Function: ^parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1    3.8%    Function: ~<anonymous> node:internal/modules/cjs/loader:1:1
+      1  100.0%      Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      1  100.0%        LazyCompile: ~initializeCJSLoader node:internal/process/pre_execution:535:29
+      1  100.0%          LazyCompile: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%            Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    3.8%    Function: ~<anonymous> :1:20
+      1  100.0%      LazyCompile: ~main /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      1  100.0%        LazyCompile: ~ret /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1  100.0%          LazyCompile: ~ret /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%            LazyCompile: ~ExpressHandlebars._renderTemplate /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1    3.8%    Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/npmlog/log.js:1:1
+      1  100.0%      Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:1025:33
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:807:24
+      1    3.8%    Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongoose/lib/schema/string.js:1:1
+      1  100.0%      Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:1025:33
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:807:24
+      1    3.8%    Function: ^next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:177:16
+      1  100.0%      Function: ^expressInit /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%        Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          Function: ^trim_prefix /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:280:64
+      1    3.8%    Function: ^addListener node:events:604:58
+      1  100.0%      Function: ^serveStatic /Users/turco/WebDev/coderhouse-backend-course/node_modules/serve-static/index.js:72:31
+      1  100.0%        LazyCompile: *trim_prefix /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          LazyCompile: *next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            Function: ^strategy.pass /Users/turco/WebDev/coderhouse-backend-course/node_modules/passport/lib/middleware/authenticate.js:345:31
+      1    3.8%    Function: ^LazyTransform node:internal/streams/lazy_transform:20:23
+      1  100.0%      Function: ^Hash node:internal/crypto/hash:62:14
+      1  100.0%        Function: ^createHash node:crypto:132:20
+      1  100.0%          Function: ^entitytag /Users/turco/WebDev/coderhouse-backend-course/node_modules/etag/index.js:39:20
+      1  100.0%            Function: ^etag /Users/turco/WebDev/coderhouse-backend-course/node_modules/etag/index.js:70:15
+
+     22    1.2%  /usr/lib/system/libsystem_pthread.dylib
+      2    9.1%    Function: ~<anonymous> node:internal/fs/promises:1:1
+      2  100.0%      Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2  100.0%        Function: ~<anonymous> node:internal/modules/esm/load:1:1
+      2  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:353:29
+      2  100.0%            Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      1    4.5%    LazyCompile: ~stat node:fs:1513:14
+      1  100.0%      LazyCompile: ~sendFile /Users/turco/WebDev/coderhouse-backend-course/node_modules/send/index.js:712:51
+      1  100.0%        LazyCompile: ~pipe /Users/turco/WebDev/coderhouse-backend-course/node_modules/send/index.js:506:43
+      1  100.0%          LazyCompile: ~serveStatic /Users/turco/WebDev/coderhouse-backend-course/node_modules/serve-static/index.js:72:31
+      1  100.0%            Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      1    4.5%    LazyCompile: ~selectServer /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/topology.js:253:17
+      1  100.0%      LazyCompile: ~connect /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/topology.js:154:12
+      1  100.0%        LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/mongo_client.js:136:49
+      1  100.0%          LazyCompile: ~<anonymous> node:internal/util:350:24
+      1  100.0%            T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1    4.5%    LazyCompile: ~retry /Users/turco/WebDev/coderhouse-backend-course/node_modules/graceful-fs/graceful-fs.js:397:16
+      1  100.0%      LazyCompile: ~resetQueue /Users/turco/WebDev/coderhouse-backend-course/node_modules/graceful-fs/graceful-fs.js:383:21
+      1  100.0%        LazyCompile: ~closeSync /Users/turco/WebDev/coderhouse-backend-course/node_modules/graceful-fs/graceful-fs.js:72:24
+      1  100.0%          Function: ^readFileSync node:fs:465:22
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1    4.5%    LazyCompile: ~processTicksAndRejections node:internal/process/task_queues:67:35
+      1    4.5%    LazyCompile: ~parse node:url:184:37
+      1  100.0%      LazyCompile: ~urlParse node:url:152:18
+      1  100.0%        LazyCompile: ~validate_config /Users/turco/WebDev/coderhouse-backend-course/node_modules/@mapbox/node-pre-gyp/lib/util/versioning.js:195:25
+      1  100.0%          LazyCompile: ~exports.find /Users/turco/WebDev/coderhouse-backend-course/node_modules/@mapbox/node-pre-gyp/lib/pre-binding.js:17:24
+      1  100.0%            Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/bcrypt/bcrypt.js:1:1
+      1    4.5%    LazyCompile: ~destroy node:internal/streams/destroy:39:17
+      1  100.0%      LazyCompile: ~endReadableNT node:internal/streams/readable:1352:23
+      1  100.0%        Function: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      1    4.5%    LazyCompile: ~de file:///Users/turco/WebDev/coderhouse-backend-course/node_modules/@faker-js/faker/dist/esm/chunk-G6GIS7LZ.mjs:12:15055
+      1  100.0%      Script: ~<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1  100.0%        T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%          T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            LazyCompile: ~run node:internal/modules/esm/module_job:188:12
+      1    4.5%    LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:45:35
+      1  100.0%      LazyCompile: ~getStderr node:internal/bootstrap/switches/is_main_thread:168:19
+      1  100.0%        Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/debug/src/node.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1168:37
+      1    4.5%    LazyCompile: ~compareTopologyVersion /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/server_description.js:175:32
+      1  100.0%      LazyCompile: ~isStaleServerDescription /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/topology.js:616:34
+      1  100.0%        LazyCompile: ~serverUpdateHandler /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/topology.js:320:24
+      1  100.0%          LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/sdam/topology.js:480:53
+      1  100.0%            LazyCompile: *emit node:events:460:44
+      1    4.5%    LazyCompile: ~_log /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:163:7
+      1  100.0%      LazyCompile: ~log /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:139:6
+      1  100.0%        LazyCompile: ~Logger.<computed> /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/logger.js:234:44
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/Desafio%20Clase%2032/routes/router1.js:89:36
+      1  100.0%            Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      1    4.5%    LazyCompile: ~Readable node:internal/streams/readable:186:18
+      1  100.0%      LazyCompile: ~Duplex node:internal/streams/duplex:54:16
+      1  100.0%        LazyCompile: ~Socket node:net:329:16
+      1  100.0%          LazyCompile: ~WriteStream node:tty:84:21
+      1  100.0%            LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:45:35
+      1    4.5%    LazyCompile: ~Pager._array /Users/turco/WebDev/coderhouse-backend-course/node_modules/memory-pager/index.js:38:35
+      1  100.0%      LazyCompile: ~Pager.set /Users/turco/WebDev/coderhouse-backend-course/node_modules/memory-pager/index.js:81:32
+      1  100.0%        LazyCompile: ~Bitfield /Users/turco/WebDev/coderhouse-backend-course/node_modules/sparse-bitfield/index.js:5:19
+      1  100.0%          LazyCompile: ~Bitfield /Users/turco/WebDev/coderhouse-backend-course/node_modules/sparse-bitfield/index.js:5:19
+      1  100.0%            LazyCompile: ~read /Users/turco/WebDev/coderhouse-backend-course/node_modules/saslprep/lib/memory-code-points.js:15:14
+      1    4.5%    LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:331:47
+      1  100.0%      Function: ^step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%        Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%          Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1  100.0%            T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1    4.5%    LazyCompile: *anonymous /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      1  100.0%      LazyCompile: *parse /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%        LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%          LazyCompile: *step /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            LazyCompile: *<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    4.5%    Function: ^hasbody /Users/turco/WebDev/coderhouse-backend-course/node_modules/type-is/index.js:92:18
+      1  100.0%      Function: ^urlencodedParser /Users/turco/WebDev/coderhouse-backend-course/node_modules/body-parser/lib/types/urlencoded.js:79:36
+      1  100.0%        Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          Function: ^trim_prefix /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            LazyCompile: *next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/index.js:177:16
+      1    4.5%    Function: ^<anonymous> node:internal/validators:401:42
+      1  100.0%      Function: ^compileFunction node:vm:316:25
+      1  100.0%        Function: ^wrapSafe node:internal/modules/cjs/loader:1073:18
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1113:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1168:37
+
+     19    1.0%  /usr/lib/system/libsystem_malloc.dylib
+      3   15.8%    T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1   33.3%      T node::contextify::CompiledFnEntry::~CompiledFnEntry()
+      1  100.0%        Function: ^stat node:internal/modules/cjs/loader:158:14
+      1  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:431:17
+      1  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:447:23
+      1   33.3%      LazyCompile: ~asString /Users/turco/WebDev/coderhouse-backend-course/node_modules/date-format/lib/index.js:29:18
+      1  100.0%        LazyCompile: ~timestampLevelAndCategory /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/layouts.js:42:35
+      1  100.0%          LazyCompile: ~colouredLayout /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/layouts.js:73:24
+      1  100.0%            LazyCompile: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/log4js/lib/appenders/console.js:5:10
+      1   33.3%      Function: ^Module._load node:internal/modules/cjs/loader:807:24
+      1  100.0%        Function: ^Module.require node:internal/modules/cjs/loader:1053:36
+      1  100.0%          Function: ^require node:internal/modules/cjs/helpers:102:31
+      1  100.0%            Function: ~<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/fs-extra/lib/move/move.js:1:1
+      2   10.5%    LazyCompile: *cpus node:os:141:14
+      2  100.0%      Function: ^<anonymous> file:///Users/turco/WebDev/coderhouse-backend-course/Desafio%20Clase%2032/routes/router1.js:89:36
+      2  100.0%        Function: ^handle /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/layer.js:86:49
+      2  100.0%          Function: ^next /Users/turco/WebDev/coderhouse-backend-course/node_modules/express/lib/router/route.js:116:16
+      2  100.0%            Function: ^compression /Users/turco/WebDev/coderhouse-backend-course/node_modules/compression/index.js:59:31
+      1    5.3%    LazyCompile: ~serializeInto /Users/turco/WebDev/coderhouse-backend-course/node_modules/bson/lib/parser/serializer.js:553:23
+      1  100.0%      LazyCompile: ~serialize /Users/turco/WebDev/coderhouse-backend-course/node_modules/bson/lib/bson.js:110:19
+      1  100.0%        LazyCompile: ~toBin /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/commands.js:82:10
+      1  100.0%          LazyCompile: ~writeCommand /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/message_stream.js:40:17
+      1  100.0%            LazyCompile: ~write /Users/turco/WebDev/coderhouse-backend-course/node_modules/mongodb/lib/cmap/connection.js:427:15
+      1    5.3%    LazyCompile: ~Field /Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/firestore/node_modules/protobufjs/src/field.js:55:15
+      1  100.0%      LazyCompile: ~fromJSON /Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/firestore/node_modules/protobufjs/src/field.js:37:35
+      1  100.0%        LazyCompile: ~fromJSON /Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/firestore/node_modules/protobufjs/src/type.js:237:34
+      1  100.0%          LazyCompile: ~addJSON /Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/firestore/node_modules/protobufjs/src/namespace.js:167:47
+      1  100.0%            LazyCompile: ~fromJSON /Users/turco/WebDev/coderhouse-backend-course/node_modules/@firebase/firestore/node_modules/protobufjs/src/namespace.js:35:39
+      1    5.3%    Function: ^setupHelperArgs /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1104:44
+      1  100.0%      LazyCompile: *invokeAmbiguous /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:699:44
+      1  100.0%        LazyCompile: *compile /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          Function: ^compileInput /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            Function: ^ret /Users/turco/WebDev/coderhouse-backend-course/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1    5.3%    Function: ^<anonymous> /Users/turco/WebDev/coderhouse-backend-course/node_modules/glob/glob.js:147:29
+      1  100.0%      LazyCompile: *emit node:events:460:44
+      1  100.0%        Function: ^Glob._finish /Users/turco/WebDev/coderhouse-backend-course/node_modules/glob/glob.js:185:35
+      1  100.0%          Function: ^done /Users/turco/WebDev/coderhouse-backend-course/node_modules/glob/glob.js:171:17
+      1  100.0%            Function: ^Glob._processGlobStar2 /Users/turco/WebDev/coderhouse-backend-course/node_modules/glob/glob.js:631:45
+
