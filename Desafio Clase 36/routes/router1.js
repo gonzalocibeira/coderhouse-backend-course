@@ -5,7 +5,8 @@ import os from "os";
 import compression from "compression";
 import logger from "../lib/log4js.js";
 import { createTransport } from "nodemailer";
-import { Product, Cart } from "../models/user.model.js"
+import { Product, Cart } from "../models/user.model.js";
+import twilio from "twilio";
 
 const router = Router();
 
@@ -30,23 +31,33 @@ const isAuthenticated = (req, res, next) => {
     }
 };
 
-const sendMail = async (req) => {
+const sendMail = async (req, type = "newUser", subject = "New user registered", items) => {
     const transporter = createTransport({
         host: 'smtp.ethereal.email',
         port: 587,
         auth: {
-            user: 'santina13@ethereal.email',
-            pass: 'WwB5MV9UucJdZeKmj2'
+            user: 'kariane30@ethereal.email',
+            pass: 'eJ9Nk6gDxqZN2G1c2B'
         }
     });
   
     const adminMail = "turcoturco95@gmail.com";
 
+    let mailBody = "";
+    switch (type) {
+        case "newUser":
+            mailBody = `<p>New user with mail:${req.body.email}, name:${req.body.name}, address:${req.body.address}, age:${req.body.age} and phone:${req.body.phone}</p>`;
+            break;
+        case "purchase":
+            mailBody = `<p>New purchase from user ${req.user.username}, details:${items}</p>`;
+            break;
+    };
+
     const mailOtions = {
     from: "Node Server",
     to: adminMail,
-    subject: "New user",
-    html: `<p>New user with mail:${req.body.email}, name:${req.body.name}, address:${req.body.address}, age:${req.body.age} and phone:${req.body.phone}</p>`,
+    subject,
+    html: mailBody
     };
 
     try {
@@ -57,9 +68,54 @@ const sendMail = async (req) => {
     }
 };
 
+const sendSMS = async (req, message) => {
+    const accountSid = process.env.TWILIOSSID;
+    const authToken = process.env.TWILIOAUTH;
+    
+    const client = twilio(accountSid, authToken);
+
+    const options = {
+        body: message,
+        from: "+15178365226",
+        to: req.user.phone,
+      };
+      
+      try {
+        const message = await client.messages.create(options);
+      } catch (err) {
+        logger.warn(err);
+      }
+};
+
 const getProducts = () => {
     return Product.find().lean();
 };
+
+const getDetailedCart = async (req) => {
+    const user = req.user.username
+    const productsMongo = await Cart.findOne({username: user}, {products: 1, _id:0}).lean();
+    const productsArray = productsMongo.products
+
+    const productsInfo = [];
+    await Promise.all(productsArray.map(async (prod) => {
+        const prodData = await Product.findOne({name: prod}, {price:1, img:1, _id:0}).lean();
+
+        let prodInfo = {
+            title: prod,
+            price: prodData.price,
+            thumbnail: prodData.img
+        };
+
+        productsInfo.push(prodInfo);
+    }));
+
+    return productsInfo
+};
+
+const clearCart = async (req) => {
+    const user = req.user.username;
+    await Cart.findOneAndUpdate({username: user}, {products: []});
+}
 
 router
     .route("/")
@@ -164,26 +220,23 @@ router
     .route("/cart")
     .get(isAuthenticated, async (req, res) => {
         try{
-            const user = req.user.username
-            const products = await Cart.find({username: user}, {products: 1, _id:0});
-            console.log(products.products);
-            const productsInfo = [];
-/*             products.forEach((prod) => {
-                let price = Product.find({name: prod}).price;
-                let image = Product.find({name: prod}).img;
-
-                let prodInfo = {
-                    prod,
-                    price,
-                    image
-                };
-
-                productsInfo.push(prodInfo);
-            }); */
-            res.render("cart", {productsInfo, hasAny:true})
+            const userCart = await getDetailedCart(req);
+            console.log(userCart);
+            res.render("cart", {userCart, hasAny:true})
         } catch (err){
             logger.error(`${err}`);
         }
+    });
+
+router
+    .route("/buy")
+    .post(isAuthenticated, async (req,res) => {
+        const userCart = await getDetailedCart(req);
+        const userCartText = JSON.stringify(userCart);
+        sendMail(req, "purchase", "New purchase", userCartText);
+        sendSMS(req, "Order recieved and in process");
+        clearCart(req);
+        res.redirect("/main");
     })
 
 router.get("*", (req, res) => {
