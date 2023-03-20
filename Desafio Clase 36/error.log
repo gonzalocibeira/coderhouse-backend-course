@@ -1,0 +1,13 @@
+[2023-03-20T02:46:31.161] [ERROR] default - TypeError: userCart.updateOne is not a function
+[2023-03-20T03:05:59.206] [ERROR] default - ReferenceError: products is not defined
+[2023-03-20T03:12:50.155] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-03-20T03:13:16.618] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-03-20T03:13:25.435] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-03-20T03:13:56.840] [ERROR] default - TypeError: products.forEach is not a function
+[2023-03-20T03:14:24.766] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'forEach')
+[2023-03-20T03:14:55.666] [ERROR] default - TypeError: products.forEach is not a function
+[2023-03-20T03:15:27.541] [ERROR] default - TypeError: products.forEach is not a function
+[2023-03-20T03:18:52.192] [ERROR] default - MongoServerError: Cannot do exclusion on field username in inclusion projection
+[2023-03-20T03:18:53.824] [ERROR] default - MongoServerError: Cannot do exclusion on field username in inclusion projection
+[2023-03-20T03:19:17.077] [ERROR] default - TypeError: products.forEach is not a function
+[2023-03-20T03:19:19.801] [ERROR] default - TypeError: products.forEach is not a function
