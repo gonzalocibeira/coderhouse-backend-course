@@ -1,0 +1,29 @@
+<h2>Register new user</h2>
+<form action="/register" method="post" style="margin-top:15px; border: solid 2px black; padding:4px">
+    {{!-- Email --}}
+    <label for="usrMail">Mail:</label>
+    <input id="usrMail" name="username" type="email" required>
+    {{!-- Pass --}}
+    <label for="usrPass">Password:</label>
+    <input type="password" name="password" required>
+    {{!-- Name --}}
+    <label for="usrName">Name:</label>
+    <input id="usrName" name="name" required>
+    {{!-- Address --}}
+    <label for="usrAdd">Address:</label>
+    <input id="usrAdd" name="address" required>
+    {{!-- Age --}}
+    <label for="usrAge">Age:</label>
+    <input id="usrAge" type="number" name="age" required>
+    {{!-- Phone --}}
+    <label for="usrPhone">Phone:</label>
+    <input id="usrPhone" type="tel" name="phone" required>
+    {{!-- Profile Pic URL --}}
+    <label for="usrPic">Profile pic URL:</label>
+    <input id="usrPic" type="url" name="pic" required>
+    {{!-- Submit Button --}}
+    <input type="submit" name="" value="register user">
+</form>
+<form action="/" method="get" style="margin-top: 15px">
+    <input type="submit" name="" value="Go to login">
+</form>
