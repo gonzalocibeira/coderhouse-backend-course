@@ -2,10 +2,12 @@
   "type": "module",
   "scripts": {
     "test": "node benchmark.js",
-    "start": "node Desafio-Clase-34/desafioClase34.js"
+    "start": "node Desafio-Clase-34/desafioClase34.js",
+    "mochatest": "mocha api.test.js" 
   },
   "dependencies": {
     "autocannon": "^7.10.0",
+    "axios": "^1.3.5",
     "bcrypt": "^5.1.0",
     "compression": "^1.7.4",
     "connect-mongo": "^4.6.0",
@@ -30,6 +32,9 @@
     "twilio": "^4.8.0"
   },
   "devDependencies": {
-    "@faker-js/faker": "^7.6.0"
+    "@faker-js/faker": "^7.6.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
   }
 }
