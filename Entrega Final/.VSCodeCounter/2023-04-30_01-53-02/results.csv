@@ -1,0 +1,36 @@
+"filename", "language", "JavaScript", "Properties", "Handlebars", "Log", "comment", "blank", "total"
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/.env", "Properties", 0, 4, 0, 0, 0, 0, 4
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/config/firestoreConfig.js", "JavaScript", 14, 0, 0, 0, 0, 5, 19
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/config/mongoConfig.js", "JavaScript", 28, 0, 0, 0, 0, 6, 34
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/controllers/controller.js", "JavaScript", 137, 0, 0, 0, 0, 29, 166
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/error.log", "Log", 0, 0, 0, 24, 0, 1, 25
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/lib/log4js.js", "JavaScript", 28, 0, 0, 0, 0, 5, 33
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/lib/pasport.lib.js", "JavaScript", 52, 0, 0, 0, 0, 14, 66
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/lib/populate-store.js", "JavaScript", 25, 0, 0, 0, 1, 8, 34
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/models/cart.model.js", "JavaScript", 6, 0, 0, 0, 0, 2, 8
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/models/product.model.js", "JavaScript", 9, 0, 0, 0, 0, 3, 12
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/models/user.model.js", "JavaScript", 11, 0, 0, 0, 0, 2, 13
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/persistance/factory_ecom.js", "JavaScript", 12, 0, 0, 0, 0, 1, 13
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/persistance/persistance_chat.js", "JavaScript", 35, 0, 0, 0, 1, 13, 49
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/persistance/persistance_ecom.js", "JavaScript", 86, 0, 0, 0, 0, 18, 104
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/client.socket.js", "JavaScript", 56, 0, 0, 0, 0, 19, 75
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/cart.hbs", "Handlebars", 0, 0, 18, 0, 0, 0, 18
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/fakeProds.hbs", "Handlebars", 0, 0, 15, 0, 0, 0, 15
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/info.hbs", "Handlebars", 0, 0, 10, 0, 0, 0, 10
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/layouts/main.hbs", "Handlebars", 0, 0, 13, 0, 0, 0, 13
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/login.hbs", "Handlebars", 0, 0, 11, 0, 0, 0, 11
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/loginError.hbs", "Handlebars", 0, 0, 4, 0, 0, 0, 4
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/logout.hbs", "Handlebars", 0, 0, 4, 0, 0, 0, 4
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/main.hbs", "Handlebars", 0, 0, 47, 0, 0, 1, 48
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/register.hbs", "Handlebars", 0, 0, 21, 0, 8, 0, 29
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/registerError.hbs", "Handlebars", 0, 0, 4, 0, 0, 0, 4
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/routes/router1.js", "JavaScript", 29, 0, 0, 0, 0, 19, 48
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/routes/routerChild.js", "JavaScript", 14, 0, 0, 0, 0, 4, 18
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/server.js", "JavaScript", 132, 0, 0, 0, 0, 40, 172
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/serverAPIRandom.js", "JavaScript", 51, 0, 0, 0, 0, 16, 67
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/services/services.js", "JavaScript", 50, 0, 0, 0, 0, 10, 60
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/tests/api.test.js", "JavaScript", 22, 0, 0, 0, 0, 8, 30
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/tests/axiosConfig.js", "JavaScript", 3, 0, 0, 0, 0, 2, 5
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/tests/axiosTest.js", "JavaScript", 22, 0, 0, 0, 0, 3, 25
+"/Users/turco/WebDev/coderhouse-backend-course/Entrega Final/warn.log", "Log", 0, 0, 0, 82, 0, 1, 83
+"Total", "-", 822, 4, 147, 106, 10, 230, 1319

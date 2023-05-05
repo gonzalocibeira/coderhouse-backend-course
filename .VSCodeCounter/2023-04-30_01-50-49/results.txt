@@ -1,0 +1,664 @@
+Date : 2023-04-30 01:50:49
+Directory : /Users/turco/WebDev/coderhouse-backend-course
+Total : 409 files,  756316 codes, 2606 comments, 4884 blanks, all 763806 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          9 |    660,393 |          0 |          7 |    660,400 |
+| Log        |         20 |     72,739 |          0 |         20 |     72,759 |
+| HTML       |          8 |     12,246 |         89 |      1,984 |     14,319 |
+| JavaScript |        231 |      9,103 |      2,440 |      2,797 |     14,340 |
+| Handlebars |        121 |      1,617 |         48 |          6 |      1,671 |
+| Markdown   |          3 |         92 |          4 |         43 |        139 |
+| Properties |         11 |         70 |          2 |         15 |         87 |
+| Pug        |          3 |         38 |          0 |          2 |         40 |
+| TypeScript |          1 |         14 |          0 |          6 |         20 |
+| SQL        |          1 |          4 |          0 |          0 |          4 |
+| Less       |          1 |          0 |         23 |          4 |         27 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                |        409 |    756,316 |      2,606 |      4,884 |    763,806 |
+| . (Files)                                                                                                        |          5 |         65 |          0 |         11 |         76 |
+| Desafio Clase 10                                                                                                 |         14 |        259 |          0 |         53 |        312 |
+| Desafio Clase 10/EJS                                                                                             |          4 |         77 |          0 |         16 |         93 |
+| Desafio Clase 10/EJS (Files)                                                                                     |          2 |         45 |          0 |         16 |         61 |
+| Desafio Clase 10/EJS/views                                                                                       |          2 |         32 |          0 |          0 |         32 |
+| Desafio Clase 10/Handlebars                                                                                      |          5 |         99 |          0 |         19 |        118 |
+| Desafio Clase 10/Handlebars (Files)                                                                              |          2 |         55 |          0 |         19 |         74 |
+| Desafio Clase 10/Handlebars/views                                                                                |          3 |         44 |          0 |          0 |         44 |
+| Desafio Clase 10/Handlebars/views (Files)                                                                        |          2 |         32 |          0 |          0 |         32 |
+| Desafio Clase 10/Handlebars/views/layouts                                                                        |          1 |         12 |          0 |          0 |         12 |
+| Desafio Clase 10/PUG                                                                                             |          5 |         83 |          0 |         18 |        101 |
+| Desafio Clase 10/PUG (Files)                                                                                     |          2 |         45 |          0 |         16 |         61 |
+| Desafio Clase 10/PUG/views                                                                                       |          3 |         38 |          0 |          2 |         40 |
+| Desafio Clase 12                                                                                                 |          6 |        208 |          2 |         65 |        275 |
+| Desafio Clase 12 (Files)                                                                                         |          2 |         99 |          2 |         41 |        142 |
+| Desafio Clase 12/public                                                                                          |          4 |        109 |          0 |         24 |        133 |
+| Desafio Clase 12/public (Files)                                                                                  |          1 |         56 |          0 |         24 |         80 |
+| Desafio Clase 12/public/views                                                                                    |          3 |         53 |          0 |          0 |         53 |
+| Desafio Clase 12/public/views (Files)                                                                            |          2 |         40 |          0 |          0 |         40 |
+| Desafio Clase 12/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 14                                                                                                 |          3 |        232 |          5 |         46 |        283 |
+| Desafio Clase 16                                                                                                 |          9 |        264 |          2 |         61 |        327 |
+| Desafio Clase 16 (Files)                                                                                         |          4 |        148 |          2 |         36 |        186 |
+| Desafio Clase 16/database                                                                                        |          1 |          4 |          0 |          0 |          4 |
+| Desafio Clase 16/public                                                                                          |          4 |        112 |          0 |         25 |        137 |
+| Desafio Clase 16/public (Files)                                                                                  |          1 |         59 |          0 |         25 |         84 |
+| Desafio Clase 16/public/views                                                                                    |          3 |         53 |          0 |          0 |         53 |
+| Desafio Clase 16/public/views (Files)                                                                            |          2 |         40 |          0 |          0 |         40 |
+| Desafio Clase 16/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 18                                                                                                 |          1 |         81 |          0 |         30 |        111 |
+| Desafio Clase 2                                                                                                  |          1 |         42 |          0 |         13 |         55 |
+| Desafio Clase 20                                                                                                 |          5 |        196 |          2 |         49 |        247 |
+| Desafio Clase 20/DAOs                                                                                            |          1 |          8 |          0 |          4 |         12 |
+| Desafio Clase 20/Firestore                                                                                       |          2 |         97 |          1 |         22 |        120 |
+| Desafio Clase 20/MongoDB                                                                                         |          2 |         91 |          1 |         23 |        115 |
+| Desafio Clase 22                                                                                                 |          8 |        247 |          2 |         64 |        313 |
+| Desafio Clase 22 (Files)                                                                                         |          2 |         97 |          1 |         34 |        132 |
+| Desafio Clase 22/config                                                                                          |          1 |         12 |          0 |          4 |         16 |
+| Desafio Clase 22/public                                                                                          |          4 |        113 |          1 |         22 |        136 |
+| Desafio Clase 22/public (Files)                                                                                  |          1 |         64 |          1 |         22 |         87 |
+| Desafio Clase 22/public/views                                                                                    |          3 |         49 |          0 |          0 |         49 |
+| Desafio Clase 22/public/views (Files)                                                                            |          2 |         36 |          0 |          0 |         36 |
+| Desafio Clase 22/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 22/routes                                                                                          |          1 |         25 |          0 |          4 |         29 |
+| Desafio Clase 24                                                                                                 |         10 |        276 |          1 |         61 |        338 |
+| Desafio Clase 24 (Files)                                                                                         |          2 |        105 |          1 |         32 |        138 |
+| Desafio Clase 24/config                                                                                          |          1 |         12 |          0 |          4 |         16 |
+| Desafio Clase 24/public                                                                                          |          6 |        118 |          0 |         19 |        137 |
+| Desafio Clase 24/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 24/public/views                                                                                    |          5 |         62 |          0 |          0 |         62 |
+| Desafio Clase 24/public/views (Files)                                                                            |          4 |         49 |          0 |          0 |         49 |
+| Desafio Clase 24/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 24/routes                                                                                          |          1 |         41 |          0 |          6 |         47 |
+| Desafio Clase 26                                                                                                 |         15 |        382 |          1 |         86 |        469 |
+| Desafio Clase 26 (Files)                                                                                         |          2 |        121 |          1 |         38 |        160 |
+| Desafio Clase 26/config                                                                                          |          1 |         12 |          0 |          4 |         16 |
+| Desafio Clase 26/lib                                                                                             |          1 |         41 |          0 |         11 |         52 |
+| Desafio Clase 26/models                                                                                          |          1 |          6 |          0 |          2 |          8 |
+| Desafio Clase 26/public                                                                                          |          9 |        143 |          0 |         19 |        162 |
+| Desafio Clase 26/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 26/public/views                                                                                    |          8 |         87 |          0 |          0 |         87 |
+| Desafio Clase 26/public/views (Files)                                                                            |          7 |         74 |          0 |          0 |         74 |
+| Desafio Clase 26/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 26/routes                                                                                          |          1 |         59 |          0 |         12 |         71 |
+| Desafio Clase 28                                                                                                 |         19 |        451 |          1 |        102 |        554 |
+| Desafio Clase 28 (Files)                                                                                         |          4 |        155 |          1 |         48 |        204 |
+| Desafio Clase 28/config                                                                                          |          1 |         14 |          0 |          5 |         19 |
+| Desafio Clase 28/lib                                                                                             |          1 |         41 |          0 |         11 |         52 |
+| Desafio Clase 28/models                                                                                          |          1 |          6 |          0 |          2 |          8 |
+| Desafio Clase 28/public                                                                                          |         10 |        152 |          0 |         19 |        171 |
+| Desafio Clase 28/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 28/public/views                                                                                    |          9 |         96 |          0 |          0 |         96 |
+| Desafio Clase 28/public/views (Files)                                                                            |          8 |         83 |          0 |          0 |         83 |
+| Desafio Clase 28/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 28/routes                                                                                          |          2 |         83 |          0 |         17 |        100 |
+| Desafio Clase 30                                                                                                 |         20 |        549 |          3 |        135 |        687 |
+| Desafio Clase 30 (Files)                                                                                         |          5 |        250 |          3 |         81 |        334 |
+| Desafio Clase 30/config                                                                                          |          1 |         14 |          0 |          5 |         19 |
+| Desafio Clase 30/lib                                                                                             |          1 |         41 |          0 |         11 |         52 |
+| Desafio Clase 30/models                                                                                          |          1 |          6 |          0 |          2 |          8 |
+| Desafio Clase 30/public                                                                                          |         10 |        153 |          0 |         19 |        172 |
+| Desafio Clase 30/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 30/public/views                                                                                    |          9 |         97 |          0 |          0 |         97 |
+| Desafio Clase 30/public/views (Files)                                                                            |          8 |         84 |          0 |          0 |         84 |
+| Desafio Clase 30/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 30/routes                                                                                          |          2 |         85 |          0 |         17 |        102 |
+| Desafio Clase 32                                                                                                 |         28 |    744,992 |          1 |      2,081 |    747,074 |
+| Desafio Clase 32 (Files)                                                                                         |          8 |     24,690 |          1 |         76 |     24,767 |
+| Desafio Clase 32/7651.0x                                                                                         |          4 |    719,952 |          0 |      1,945 |    721,897 |
+| Desafio Clase 32/config                                                                                          |          1 |         14 |          0 |          5 |         19 |
+| Desafio Clase 32/lib                                                                                             |          2 |         69 |          0 |         16 |         85 |
+| Desafio Clase 32/models                                                                                          |          1 |          6 |          0 |          2 |          8 |
+| Desafio Clase 32/public                                                                                          |         10 |        153 |          0 |         19 |        172 |
+| Desafio Clase 32/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 32/public/views                                                                                    |          9 |         97 |          0 |          0 |         97 |
+| Desafio Clase 32/public/views (Files)                                                                            |          8 |         84 |          0 |          0 |         84 |
+| Desafio Clase 32/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 32/routes                                                                                          |          2 |        108 |          0 |         18 |        126 |
+| Desafio Clase 34                                                                                                 |         23 |        578 |          1 |        135 |        714 |
+| Desafio Clase 34 (Files)                                                                                         |          7 |        228 |          1 |         75 |        304 |
+| Desafio Clase 34/config                                                                                          |          1 |         14 |          0 |          5 |         19 |
+| Desafio Clase 34/lib                                                                                             |          2 |         69 |          0 |         16 |         85 |
+| Desafio Clase 34/models                                                                                          |          1 |          6 |          0 |          2 |          8 |
+| Desafio Clase 34/public                                                                                          |         10 |        153 |          0 |         19 |        172 |
+| Desafio Clase 34/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 34/public/views                                                                                    |          9 |         97 |          0 |          0 |         97 |
+| Desafio Clase 34/public/views (Files)                                                                            |          8 |         84 |          0 |          0 |         84 |
+| Desafio Clase 34/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 34/routes                                                                                          |          2 |        108 |          0 |         18 |        126 |
+| Desafio Clase 36                                                                                                 |         25 |        894 |         10 |        166 |      1,070 |
+| Desafio Clase 36 (Files)                                                                                         |          7 |        326 |          1 |         74 |        401 |
+| Desafio Clase 36/config                                                                                          |          1 |         14 |          0 |          5 |         19 |
+| Desafio Clase 36/lib                                                                                             |          3 |        100 |          1 |         26 |        127 |
+| Desafio Clase 36/models                                                                                          |          1 |         23 |          0 |          4 |         27 |
+| Desafio Clase 36/public                                                                                          |         11 |        203 |          8 |         20 |        231 |
+| Desafio Clase 36/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 36/public/views                                                                                    |         10 |        147 |          8 |          1 |        156 |
+| Desafio Clase 36/public/views (Files)                                                                            |          9 |        134 |          8 |          1 |        143 |
+| Desafio Clase 36/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 36/routes                                                                                          |          2 |        228 |          0 |         37 |        265 |
+| Desafio Clase 38                                                                                                 |         27 |        882 |         10 |        182 |      1,074 |
+| Desafio Clase 38 (Files)                                                                                         |          5 |        286 |          0 |         58 |        344 |
+| Desafio Clase 38/config                                                                                          |          1 |         14 |          0 |          5 |         19 |
+| Desafio Clase 38/controllers                                                                                     |          1 |        112 |          0 |         23 |        135 |
+| Desafio Clase 38/lib                                                                                             |          3 |        100 |          1 |         26 |        127 |
+| Desafio Clase 38/models                                                                                          |          1 |         23 |          0 |          4 |         27 |
+| Desafio Clase 38/persistance                                                                                     |          2 |         56 |          1 |         18 |         75 |
+| Desafio Clase 38/public                                                                                          |         11 |        203 |          8 |         20 |        231 |
+| Desafio Clase 38/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 38/public/views                                                                                    |         10 |        147 |          8 |          1 |        156 |
+| Desafio Clase 38/public/views (Files)                                                                            |          9 |        134 |          8 |          1 |        143 |
+| Desafio Clase 38/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 38/routes                                                                                          |          2 |         38 |          0 |         18 |         56 |
+| Desafio Clase 38/services                                                                                        |          1 |         50 |          0 |         10 |         60 |
+| Desafio Clase 4                                                                                                  |          1 |         89 |         20 |         24 |        133 |
+| Desafio Clase 40                                                                                                 |         29 |        958 |         10 |        194 |      1,162 |
+| Desafio Clase 40 (Files)                                                                                         |          5 |        286 |          0 |         58 |        344 |
+| Desafio Clase 40/config                                                                                          |          2 |         40 |          0 |         10 |         50 |
+| Desafio Clase 40/controllers                                                                                     |          1 |        116 |          0 |         23 |        139 |
+| Desafio Clase 40/lib                                                                                             |          3 |        100 |          1 |         26 |        127 |
+| Desafio Clase 40/models                                                                                          |          1 |         23 |          0 |          4 |         27 |
+| Desafio Clase 40/persistance                                                                                     |          3 |        102 |          1 |         25 |        128 |
+| Desafio Clase 40/public                                                                                          |         11 |        203 |          8 |         20 |        231 |
+| Desafio Clase 40/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 40/public/views                                                                                    |         10 |        147 |          8 |          1 |        156 |
+| Desafio Clase 40/public/views (Files)                                                                            |          9 |        134 |          8 |          1 |        143 |
+| Desafio Clase 40/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 40/routes                                                                                          |          2 |         38 |          0 |         18 |         56 |
+| Desafio Clase 40/services                                                                                        |          1 |         50 |          0 |         10 |         60 |
+| Desafio Clase 42                                                                                                 |         32 |      1,005 |         10 |        207 |      1,222 |
+| Desafio Clase 42 (Files)                                                                                         |          5 |        286 |          0 |         58 |        344 |
+| Desafio Clase 42/config                                                                                          |          2 |         40 |          0 |         10 |         50 |
+| Desafio Clase 42/controllers                                                                                     |          1 |        116 |          0 |         23 |        139 |
+| Desafio Clase 42/lib                                                                                             |          3 |        100 |          1 |         26 |        127 |
+| Desafio Clase 42/models                                                                                          |          1 |         23 |          0 |          4 |         27 |
+| Desafio Clase 42/persistance                                                                                     |          3 |        102 |          1 |         25 |        128 |
+| Desafio Clase 42/public                                                                                          |         11 |        203 |          8 |         20 |        231 |
+| Desafio Clase 42/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 42/public/views                                                                                    |         10 |        147 |          8 |          1 |        156 |
+| Desafio Clase 42/public/views (Files)                                                                            |          9 |        134 |          8 |          1 |        143 |
+| Desafio Clase 42/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 42/routes                                                                                          |          2 |         38 |          0 |         18 |         56 |
+| Desafio Clase 42/services                                                                                        |          1 |         50 |          0 |         10 |         60 |
+| Desafio Clase 42/tests                                                                                           |          3 |         47 |          0 |         13 |         60 |
+| Desafio Clase 44                                                                                                 |         33 |      1,041 |         10 |        210 |      1,261 |
+| Desafio Clase 44 (Files)                                                                                         |          5 |        302 |          0 |         59 |        361 |
+| Desafio Clase 44/config                                                                                          |          2 |         40 |          0 |         10 |         50 |
+| Desafio Clase 44/controllers                                                                                     |          1 |        116 |          0 |         23 |        139 |
+| Desafio Clase 44/graphql                                                                                         |          1 |         20 |          0 |          2 |         22 |
+| Desafio Clase 44/lib                                                                                             |          3 |        100 |          1 |         26 |        127 |
+| Desafio Clase 44/models                                                                                          |          1 |         23 |          0 |          4 |         27 |
+| Desafio Clase 44/persistance                                                                                     |          3 |        102 |          1 |         25 |        128 |
+| Desafio Clase 44/public                                                                                          |         11 |        203 |          8 |         20 |        231 |
+| Desafio Clase 44/public (Files)                                                                                  |          1 |         56 |          0 |         19 |         75 |
+| Desafio Clase 44/public/views                                                                                    |         10 |        147 |          8 |          1 |        156 |
+| Desafio Clase 44/public/views (Files)                                                                            |          9 |        134 |          8 |          1 |        143 |
+| Desafio Clase 44/public/views/layouts                                                                            |          1 |         13 |          0 |          0 |         13 |
+| Desafio Clase 44/routes                                                                                          |          2 |         38 |          0 |         18 |         56 |
+| Desafio Clase 44/services                                                                                        |          1 |         50 |          0 |         10 |         60 |
+| Desafio Clase 44/tests                                                                                           |          3 |         47 |          0 |         13 |         60 |
+| Desafio Clase 46                                                                                                 |         54 |      1,409 |      2,505 |        642 |      4,556 |
+| Desafio Clase 46/ProductsAPI                                                                                     |         54 |      1,409 |      2,505 |        642 |      4,556 |
+| Desafio Clase 46/ProductsAPI (Files)                                                                             |          4 |         71 |         46 |         26 |        143 |
+| Desafio Clase 46/ProductsAPI/api                                                                                 |          2 |         10 |         12 |         10 |         32 |
+| Desafio Clase 46/ProductsAPI/api/controllers                                                                     |          1 |          2 |          6 |          5 |         13 |
+| Desafio Clase 46/ProductsAPI/api/models                                                                          |          1 |          8 |          6 |          5 |         19 |
+| Desafio Clase 46/ProductsAPI/assets                                                                              |          2 |        692 |        776 |        299 |      1,767 |
+| Desafio Clase 46/ProductsAPI/assets/dependencies                                                                 |          1 |        692 |        753 |        295 |      1,740 |
+| Desafio Clase 46/ProductsAPI/assets/styles                                                                       |          1 |          0 |         23 |          4 |         27 |
+| Desafio Clase 46/ProductsAPI/config                                                                              |         20 |        103 |        885 |        194 |      1,182 |
+| Desafio Clase 46/ProductsAPI/config (Files)                                                                      |         15 |         54 |        564 |        131 |        749 |
+| Desafio Clase 46/ProductsAPI/config/env                                                                          |          1 |         33 |        321 |         59 |        413 |
+| Desafio Clase 46/ProductsAPI/config/locales                                                                      |          4 |         16 |          0 |          4 |         20 |
+| Desafio Clase 46/ProductsAPI/tasks                                                                               |         22 |        342 |        697 |         72 |      1,111 |
+| Desafio Clase 46/ProductsAPI/tasks (Files)                                                                       |          1 |         31 |         99 |         18 |        148 |
+| Desafio Clase 46/ProductsAPI/tasks/config                                                                        |         11 |        219 |        488 |         37 |        744 |
+| Desafio Clase 46/ProductsAPI/tasks/register                                                                      |         10 |         92 |        110 |         17 |        219 |
+| Desafio Clase 46/ProductsAPI/views                                                                               |          4 |        191 |         89 |         41 |        321 |
+| Desafio Clase 46/ProductsAPI/views (Files)                                                                       |          2 |        109 |          0 |         20 |        129 |
+| Desafio Clase 46/ProductsAPI/views/layouts                                                                       |          1 |         14 |         83 |         16 |        113 |
+| Desafio Clase 46/ProductsAPI/views/pages                                                                         |          1 |         68 |          6 |          5 |         79 |
+| Desafio Clase 47                                                                                                 |          2 |         23 |          0 |          6 |         29 |
+| Desafio Clase 6                                                                                                  |          1 |         18 |          0 |          8 |         26 |
+| Desafio Clase 8                                                                                                  |          4 |         96 |          0 |         23 |        119 |
+| Desafio Clase 8 (Files)                                                                                          |          3 |         66 |          0 |         23 |         89 |
+| Desafio Clase 8/public                                                                                           |          1 |         30 |          0 |          0 |         30 |
+| Entrega Final                                                                                                    |         34 |      1,079 |         10 |        230 |      1,319 |
+| Entrega Final (Files)                                                                                            |          5 |        293 |          0 |         58 |        351 |
+| Entrega Final/config                                                                                             |          2 |         42 |          0 |         11 |         53 |
+| Entrega Final/controllers                                                                                        |          1 |        137 |          0 |         29 |        166 |
+| Entrega Final/lib                                                                                                |          3 |        105 |          1 |         27 |        133 |
+| Entrega Final/models                                                                                             |          3 |         26 |          0 |          7 |         33 |
+| Entrega Final/persistance                                                                                        |          3 |        133 |          1 |         32 |        166 |
+| Entrega Final/public                                                                                             |         11 |        203 |          8 |         20 |        231 |
+| Entrega Final/public (Files)                                                                                     |          1 |         56 |          0 |         19 |         75 |
+| Entrega Final/public/views                                                                                       |         10 |        147 |          8 |          1 |        156 |
+| Entrega Final/public/views (Files)                                                                               |          9 |        134 |          8 |          1 |        143 |
+| Entrega Final/public/views/layouts                                                                               |          1 |         13 |          0 |          0 |         13 |
+| Entrega Final/routes                                                                                             |          2 |         43 |          0 |         23 |         66 |
+| Entrega Final/services                                                                                           |          1 |         50 |          0 |         10 |         60 |
+| Entrega Final/tests                                                                                              |          3 |         47 |          0 |         13 |         60 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                         | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/EJS/desafioClase10_EJS.js                         | JavaScript |         16 |          0 |          7 |         23 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/EJS/router1.js                                    | JavaScript |         29 |          0 |          9 |         38 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/EJS/views/inputForm.ejs                           | HTML       |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/EJS/views/productView.ejs                         | HTML       |         17 |          0 |          0 |         17 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/Handlebars/desafioClase10_HBS.js                  | JavaScript |         26 |          0 |          8 |         34 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/Handlebars/router1.js                             | JavaScript |         29 |          0 |         11 |         40 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/Handlebars/views/inputForm.hbs                    | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/Handlebars/views/layouts/main.hbs                 | Handlebars |         12 |          0 |          0 |         12 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/Handlebars/views/productView.hbs                  | Handlebars |         17 |          0 |          0 |         17 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/PUG/desafioClase10_PUG.js                         | JavaScript |         16 |          0 |          7 |         23 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/PUG/router1.js                                    | JavaScript |         29 |          0 |          9 |         38 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/PUG/views/inputForm.pug                           | Pug        |         14 |          0 |          1 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/PUG/views/main.pug                                | Pug        |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 10/PUG/views/productView.pug                         | Pug        |         14 |          0 |          1 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 12/desafioClase12.js                                 | JavaScript |         78 |          2 |         31 |        111 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 12/public/client.socket.js                           | JavaScript |         56 |          0 |         24 |         80 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 12/public/views/inputForm.hbs                        | Handlebars |         23 |          0 |          0 |         23 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 12/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 12/public/views/productView.hbs                      | Handlebars |         17 |          0 |          0 |         17 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 12/router1.js                                        | JavaScript |         21 |          0 |         10 |         31 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 14/main.js                                           | JavaScript |         17 |          0 |          7 |         24 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 14/persistence.js                                    | JavaScript |        129 |          2 |         26 |        157 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 14/router.js                                         | JavaScript |         86 |          3 |         13 |        102 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 16/database/msgDB.sqlite                             | SQL        |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 16/desafioClase16.js                                 | JavaScript |         67 |          0 |         22 |         89 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 16/knexTableCreator.js                               | JavaScript |         44 |          1 |          7 |         52 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 16/persistance.js                                    | JavaScript |         29 |          1 |          4 |         34 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 16/public/client.socket.js                           | JavaScript |         59 |          0 |         25 |         84 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 16/public/views/inputForm.hbs                        | Handlebars |         23 |          0 |          0 |         23 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 16/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 16/public/views/productView.hbs                      | Handlebars |         17 |          0 |          0 |         17 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 16/router1.js                                        | JavaScript |          8 |          0 |          3 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 18/desafioClase18.md                                 | Markdown   |         81 |          0 |         30 |        111 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 2/desafioClase2.js                                   | JavaScript |         42 |          0 |         13 |         55 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 20/DAOs/DAOs.js                                      | JavaScript |          8 |          0 |          4 |         12 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 20/Firestore/firestoreConfig.js                      | JavaScript |         12 |          0 |          4 |         16 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 20/Firestore/firestoreContainer.js                   | JavaScript |         85 |          1 |         18 |        104 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 20/MongoDB/mongoConfig.js                            | JavaScript |         20 |          0 |          5 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 20/MongoDB/mongoContainer.js                         | JavaScript |         71 |          1 |         18 |         90 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 22/config/firestoreConfig.js                         | JavaScript |         12 |          0 |          4 |         16 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 22/desafioClase22.js                                 | JavaScript |         58 |          0 |         21 |         79 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 22/persistance.js                                    | JavaScript |         39 |          1 |         13 |         53 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 22/public/client.socket.js                           | JavaScript |         64 |          1 |         22 |         87 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 22/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 22/public/views/inputForm.hbs                        | Handlebars |         21 |          0 |          0 |         21 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 22/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 22/routes/router1.js                                 | JavaScript |         25 |          0 |          4 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/config/firestoreConfig.js                         | JavaScript |         12 |          0 |          4 |         16 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/desafioClase24.js                                 | JavaScript |         80 |          0 |         23 |        103 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/persistance.js                                    | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/public/views/inputForm.hbs                        | Handlebars |         25 |          0 |          0 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/public/views/login.hbs                            | Handlebars |          5 |          0 |          0 |          5 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 24/routes/router1.js                                 | JavaScript |         41 |          0 |          6 |         47 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/config/firestoreConfig.js                         | JavaScript |         12 |          0 |          4 |         16 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/desafioClase26.js                                 | JavaScript |         96 |          0 |         29 |        125 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/lib/pasport.lib.js                                | JavaScript |         41 |          0 |         11 |         52 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/models/user.model.js                              | JavaScript |          6 |          0 |          2 |          8 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/persistance.js                                    | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/public/views/inputForm.hbs                        | Handlebars |         25 |          0 |          0 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/public/views/register.hbs                         | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 26/routes/router1.js                                 | JavaScript |         59 |          0 |         12 |         71 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/.env                                              | Properties |          3 |          0 |          0 |          3 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/child.js                                          | JavaScript |         16 |          0 |          5 |         21 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/config/firestoreConfig.js                         | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/desafioClase28.js                                 | JavaScript |        111 |          0 |         34 |        145 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/lib/pasport.lib.js                                | JavaScript |         41 |          0 |         11 |         52 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/models/user.model.js                              | JavaScript |          6 |          0 |          2 |          8 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/persistance.js                                    | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/views/info.hbs                             | Handlebars |          9 |          0 |          0 |          9 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/views/inputForm.hbs                        | Handlebars |         25 |          0 |          0 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/views/register.hbs                         | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/routes/router1.js                                 | JavaScript |         69 |          0 |         13 |         82 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 28/routes/routerChild.js                             | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/.env                                              | Properties |          3 |          0 |          0 |          3 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/config/firestoreConfig.js                         | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/desafioClase30.js                                 | JavaScript |        132 |          0 |         41 |        173 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/lib/pasport.lib.js                                | JavaScript |         41 |          0 |         11 |         52 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/models/user.model.js                              | JavaScript |          6 |          0 |          2 |          8 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/nginx.conf                                        | Properties |         39 |          2 |         15 |         56 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/persistance.js                                    | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/views/info.hbs                             | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/views/inputForm.hbs                        | Handlebars |         25 |          0 |          0 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/views/register.hbs                         | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/routes/router1.js                                 | JavaScript |         71 |          0 |         13 |         84 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/routes/routerChild.js                             | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 30/serverAPIRandom.js                                | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/.env                                              | Properties |          3 |          0 |          0 |          3 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/7651.0x/flamegraph.html                           | HTML       |     11,993 |          0 |      1,943 |     13,936 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/7651.0x/isolate-0x130040000-7651-7651-v8.log      | Log        |     47,669 |          0 |          1 |     47,670 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/7651.0x/isolate-0x130040000-7651-7651-v8.log.json | JSON       |    660,289 |          0 |          1 |    660,290 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/7651.0x/meta.json                                 | JSON       |          1 |          0 |          0 |          1 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/benchmark.js                                      | JavaScript |         17 |          0 |          7 |         24 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/config/firestoreConfig.js                         | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/desafioClase32.js                                 | JavaScript |        132 |          0 |         41 |        173 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/error.log                                         | Log        |          0 |          0 |          1 |          1 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/lib/log4js.js                                     | JavaScript |         28 |          0 |          5 |         33 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/lib/pasport.lib.js                                | JavaScript |         41 |          0 |         11 |         52 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/models/user.model.js                              | JavaScript |          6 |          0 |          2 |          8 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/persistance.js                                    | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/views/info.hbs                             | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/views/inputForm.hbs                        | Handlebars |         25 |          0 |          0 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/views/register.hbs                         | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/routes/router1.js                                 | JavaScript |         94 |          0 |         14 |        108 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/routes/routerChild.js                             | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/serverAPIRandom.js                                | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/warn.log                                          | Log        |          1 |          0 |          1 |          2 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 32/yesLog.log                                        | Log        |     24,461 |          0 |          1 |     24,462 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/.env                                              | Properties |          3 |          0 |          0 |          3 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/benchmark.js                                      | JavaScript |         17 |          0 |          7 |         24 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/config/firestoreConfig.js                         | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/desafioClase34.js                                 | JavaScript |        132 |          0 |         41 |        173 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/error.log                                         | Log        |          0 |          0 |          1 |          1 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/lib/log4js.js                                     | JavaScript |         28 |          0 |          5 |         33 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/lib/pasport.lib.js                                | JavaScript |         41 |          0 |         11 |         52 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/models/user.model.js                              | JavaScript |          6 |          0 |          2 |          8 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/persistance.js                                    | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/views/info.hbs                             | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/views/inputForm.hbs                        | Handlebars |         25 |          0 |          0 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/views/register.hbs                         | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/routes/router1.js                                 | JavaScript |         94 |          0 |         14 |        108 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/routes/routerChild.js                             | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/serverAPIRandom.js                                | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 34/warn.log                                          | Log        |          0 |          0 |          1 |          1 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/.env                                              | Properties |          3 |          0 |          0 |          3 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/benchmark.js                                      | JavaScript |         17 |          0 |          7 |         24 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/config/firestoreConfig.js                         | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/desafioClase36.js                                 | JavaScript |        132 |          0 |         40 |        172 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/error.log                                         | Log        |         23 |          0 |          1 |         24 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/lib/log4js.js                                     | JavaScript |         28 |          0 |          5 |         33 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/lib/pasport.lib.js                                | JavaScript |         51 |          0 |         14 |         65 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/lib/populate-store.js                             | JavaScript |         21 |          1 |          7 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/models/user.model.js                              | JavaScript |         23 |          0 |          4 |         27 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/persistance.js                                    | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/cart.hbs                             | Handlebars |         18 |          0 |          0 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/info.hbs                             | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/inputForm.hbs                        | Handlebars |         47 |          0 |          1 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/register.hbs                         | Handlebars |         21 |          8 |          0 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/routes/router1.js                                 | JavaScript |        214 |          0 |         33 |        247 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/routes/routerChild.js                             | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/serverAPIRandom.js                                | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 36/warn.log                                          | Log        |         75 |          0 |          1 |         76 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/.env                                              | Properties |          3 |          0 |          0 |          3 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/config/firestoreConfig.js                         | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/controllers/controller.js                         | JavaScript |        112 |          0 |         23 |        135 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/desafioClase38.js                                 | JavaScript |        132 |          0 |         40 |        172 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/error.log                                         | Log        |         24 |          0 |          1 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/lib/log4js.js                                     | JavaScript |         28 |          0 |          5 |         33 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/lib/pasport.lib.js                                | JavaScript |         51 |          0 |         14 |         65 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/lib/populate-store.js                             | JavaScript |         21 |          1 |          7 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/models/user.model.js                              | JavaScript |         23 |          0 |          4 |         27 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/persistance/persistance_chat.js                   | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/persistance/persistance_ecom.js                   | JavaScript |         31 |          0 |          9 |         40 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/cart.hbs                             | Handlebars |         18 |          0 |          0 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/info.hbs                             | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/inputForm.hbs                        | Handlebars |         47 |          0 |          1 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/register.hbs                         | Handlebars |         21 |          8 |          0 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/routes/router1.js                                 | JavaScript |         24 |          0 |         14 |         38 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/routes/routerChild.js                             | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/serverAPIRandom.js                                | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/services/services.js                              | JavaScript |         50 |          0 |         10 |         60 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 38/warn.log                                          | Log        |         76 |          0 |          1 |         77 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 4/desafioClase4.js                                   | JavaScript |         89 |         20 |         24 |        133 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/.env                                              | Properties |          3 |          0 |          0 |          3 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/config/firestoreConfig.js                         | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/config/mongoConfig.js                             | JavaScript |         26 |          0 |          5 |         31 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/controllers/controller.js                         | JavaScript |        116 |          0 |         23 |        139 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/desafioClase40.js                                 | JavaScript |        132 |          0 |         40 |        172 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/error.log                                         | Log        |         24 |          0 |          1 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/lib/log4js.js                                     | JavaScript |         28 |          0 |          5 |         33 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/lib/pasport.lib.js                                | JavaScript |         51 |          0 |         14 |         65 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/lib/populate-store.js                             | JavaScript |         21 |          1 |          7 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/models/user.model.js                              | JavaScript |         23 |          0 |          4 |         27 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/persistance/factory_ecom.js                       | JavaScript |         12 |          0 |          1 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/persistance/persistance_chat.js                   | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/persistance/persistance_ecom.js                   | JavaScript |         65 |          0 |         15 |         80 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/cart.hbs                             | Handlebars |         18 |          0 |          0 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/info.hbs                             | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/inputForm.hbs                        | Handlebars |         47 |          0 |          1 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/register.hbs                         | Handlebars |         21 |          8 |          0 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/routes/router1.js                                 | JavaScript |         24 |          0 |         14 |         38 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/routes/routerChild.js                             | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/serverAPIRandom.js                                | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/services/services.js                              | JavaScript |         50 |          0 |         10 |         60 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 40/warn.log                                          | Log        |         76 |          0 |          1 |         77 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/.env                                              | Properties |          3 |          0 |          0 |          3 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/config/firestoreConfig.js                         | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/config/mongoConfig.js                             | JavaScript |         26 |          0 |          5 |         31 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/controllers/controller.js                         | JavaScript |        116 |          0 |         23 |        139 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/desafioClase42.js                                 | JavaScript |        132 |          0 |         40 |        172 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/error.log                                         | Log        |         24 |          0 |          1 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/lib/log4js.js                                     | JavaScript |         28 |          0 |          5 |         33 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/lib/pasport.lib.js                                | JavaScript |         51 |          0 |         14 |         65 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/lib/populate-store.js                             | JavaScript |         21 |          1 |          7 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/models/user.model.js                              | JavaScript |         23 |          0 |          4 |         27 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/persistance/factory_ecom.js                       | JavaScript |         12 |          0 |          1 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/persistance/persistance_chat.js                   | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/persistance/persistance_ecom.js                   | JavaScript |         65 |          0 |         15 |         80 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/cart.hbs                             | Handlebars |         18 |          0 |          0 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/info.hbs                             | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/inputForm.hbs                        | Handlebars |         47 |          0 |          1 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/register.hbs                         | Handlebars |         21 |          8 |          0 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/routes/router1.js                                 | JavaScript |         24 |          0 |         14 |         38 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/routes/routerChild.js                             | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/serverAPIRandom.js                                | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/services/services.js                              | JavaScript |         50 |          0 |         10 |         60 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/tests/api.test.js                                 | JavaScript |         22 |          0 |          8 |         30 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/tests/axiosConfig.js                              | JavaScript |          3 |          0 |          2 |          5 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/tests/axiosTest.js                                | JavaScript |         22 |          0 |          3 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 42/warn.log                                          | Log        |         76 |          0 |          1 |         77 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/.env                                              | Properties |          3 |          0 |          0 |          3 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/config/firestoreConfig.js                         | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/config/mongoConfig.js                             | JavaScript |         26 |          0 |          5 |         31 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/controllers/controller.js                         | JavaScript |        116 |          0 |         23 |        139 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/desafioClase44.js                                 | JavaScript |        144 |          0 |         41 |        185 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/error.log                                         | Log        |         24 |          0 |          1 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/graphql/product.schema.js                         | JavaScript |         20 |          0 |          2 |         22 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/lib/log4js.js                                     | JavaScript |         28 |          0 |          5 |         33 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/lib/pasport.lib.js                                | JavaScript |         51 |          0 |         14 |         65 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/lib/populate-store.js                             | JavaScript |         21 |          1 |          7 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/models/user.model.js                              | JavaScript |         23 |          0 |          4 |         27 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/persistance/factory_ecom.js                       | JavaScript |         12 |          0 |          1 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/persistance/persistance_chat.js                   | JavaScript |         25 |          1 |          9 |         35 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/persistance/persistance_ecom.js                   | JavaScript |         65 |          0 |         15 |         80 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/client.socket.js                           | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/cart.hbs                             | Handlebars |         18 |          0 |          0 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/fakeProds.hbs                        | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/info.hbs                             | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/inputForm.hbs                        | Handlebars |         47 |          0 |          1 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/layouts/main.hbs                     | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/login.hbs                            | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/loginError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/logout.hbs                           | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/register.hbs                         | Handlebars |         21 |          8 |          0 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/public/views/registerError.hbs                    | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/routes/router1.js                                 | JavaScript |         24 |          0 |         14 |         38 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/routes/routerChild.js                             | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/serverAPIRandom.js                                | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/services/services.js                              | JavaScript |         50 |          0 |         10 |         60 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/tests/api.test.js                                 | JavaScript |         22 |          0 |          8 |         30 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/tests/axiosConfig.js                              | JavaScript |          3 |          0 |          2 |          5 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/tests/axiosTest.js                                | JavaScript |         22 |          0 |          3 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 44/warn.log                                          | Log        |         80 |          0 |          1 |         81 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/Gruntfile.js                          | JavaScript |          4 |         16 |          4 |         24 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/README.md                             | Markdown   |         10 |          4 |         13 |         27 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/api/controllers/ProductsController.js | JavaScript |          2 |          6 |          5 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/api/models/Products.js                | JavaScript |          8 |          6 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/app.js                                | JavaScript |         21 |         26 |          8 |         55 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/assets/dependencies/sails.io.js       | JavaScript |        692 |        753 |        295 |      1,740 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/assets/styles/importer.less           | Less       |          0 |         23 |          4 |         27 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/blueprints.js                  | JavaScript |          2 |         29 |         11 |         42 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/bootstrap.js                   | JavaScript |          2 |         25 |          4 |         31 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/custom.js                      | JavaScript |          2 |         17 |          4 |         23 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/datastores.js                  | JavaScript |          6 |         43 |          8 |         57 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/env/production.js              | JavaScript |         33 |        321 |         59 |        413 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/globals.js                     | JavaScript |          6 |         36 |         11 |         53 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/http.js                        | JavaScript |          4 |         46 |         11 |         61 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/i18n.js                        | JavaScript |          3 |         34 |          9 |         46 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/locales/de.json                | JSON       |          4 |          0 |          1 |          5 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/locales/en.json                | JSON       |          4 |          0 |          1 |          5 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/locales/es.json                | JSON       |          4 |          0 |          1 |          5 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/locales/fr.json                | JSON       |          4 |          0 |          1 |          5 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/log.js                         | JavaScript |          2 |         23 |          5 |         30 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/models.js                      | JavaScript |         12 |         94 |         19 |        125 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/policies.js                    | JavaScript |          2 |         16 |          5 |         23 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/routes.js                      | JavaScript |          3 |         27 |          8 |         38 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/security.js                    | JavaScript |          2 |         45 |          8 |         55 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/session.js                     | JavaScript |          3 |         31 |          6 |         40 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/sockets.js                     | JavaScript |          2 |         66 |         15 |         83 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/config/views.js                       | JavaScript |          3 |         32 |          7 |         42 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/package.json                          | JSON       |         36 |          0 |          1 |         37 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/babel.js                 | JavaScript |         17 |         34 |          4 |         55 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/clean.js                 | JavaScript |          3 |         49 |          1 |         53 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/concat.js                | JavaScript |         12 |         35 |          4 |         51 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/copy.js                  | JavaScript |         16 |         49 |          1 |         66 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/cssmin.js                | JavaScript |          8 |         36 |          4 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/hash.js                  | JavaScript |         17 |         45 |          1 |         63 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/less.js                  | JavaScript |         13 |         34 |          4 |         51 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/sails-linker.js          | JavaScript |         94 |         81 |         10 |        185 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/sync.js                  | JavaScript |          6 |         43 |          1 |         50 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/uglify.js                | JavaScript |         26 |         34 |          5 |         65 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/config/watch.js                 | JavaScript |          7 |         48 |          2 |         57 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/pipeline.js                     | JavaScript |         31 |         99 |         18 |        148 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/build.js               | JavaScript |          8 |         14 |          1 |         23 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/buildProd.js           | JavaScript |         16 |         13 |          2 |         31 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/compileAssets.js       | JavaScript |          7 |          9 |          1 |         17 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/default.js             | JavaScript |          7 |         16 |          5 |         28 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/linkAssets.js          | JavaScript |          6 |          9 |          1 |         16 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/linkAssetsBuild.js     | JavaScript |          6 |          9 |          1 |         16 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/linkAssetsBuildProd.js | JavaScript |          6 |          9 |          1 |         16 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/polyfill.js            | JavaScript |         18 |          9 |          2 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/prod.js                | JavaScript |         12 |         13 |          2 |         27 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/tasks/register/syncAssets.js          | JavaScript |          6 |          9 |          1 |         16 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/views/404.ejs                         | HTML       |         54 |          0 |         11 |         65 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/views/500.ejs                         | HTML       |         55 |          0 |          9 |         64 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/views/layouts/layout.ejs              | HTML       |         14 |         83 |         16 |        113 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 46/ProductsAPI/views/pages/homepage.ejs              | HTML       |         68 |          6 |          5 |         79 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 47/scripts.json                                      | JSON       |          9 |          0 |          0 |          9 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 47/server.ts                                         | TypeScript |         14 |          0 |          6 |         20 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 6/desafioClase6.js                                   | JavaScript |         18 |          0 |          8 |         26 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 8/desafioClase8.js                                   | JavaScript |         17 |          0 |          6 |         23 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 8/public/index.html                                  | HTML       |         30 |          0 |          0 |         30 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 8/router1.js                                         | JavaScript |         19 |          0 |          7 |         26 |
+| /Users/turco/WebDev/coderhouse-backend-course/Desafio Clase 8/router2.js                                         | JavaScript |         30 |          0 |         10 |         40 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/.env                                                 | Properties |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/config/firestoreConfig.js                            | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/config/mongoConfig.js                                | JavaScript |         28 |          0 |          6 |         34 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/controllers/controller.js                            | JavaScript |        137 |          0 |         29 |        166 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/error.log                                            | Log        |         24 |          0 |          1 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/lib/log4js.js                                        | JavaScript |         28 |          0 |          5 |         33 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/lib/pasport.lib.js                                   | JavaScript |         52 |          0 |         14 |         66 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/lib/populate-store.js                                | JavaScript |         25 |          1 |          8 |         34 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/models/cart.model.js                                 | JavaScript |          6 |          0 |          2 |          8 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/models/product.model.js                              | JavaScript |          9 |          0 |          3 |         12 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/models/user.model.js                                 | JavaScript |         11 |          0 |          2 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/persistance/factory_ecom.js                          | JavaScript |         12 |          0 |          1 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/persistance/persistance_chat.js                      | JavaScript |         35 |          1 |         13 |         49 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/persistance/persistance_ecom.js                      | JavaScript |         86 |          0 |         18 |        104 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/client.socket.js                              | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/cart.hbs                                | Handlebars |         18 |          0 |          0 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/fakeProds.hbs                           | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/info.hbs                                | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/layouts/main.hbs                        | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/login.hbs                               | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/loginError.hbs                          | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/logout.hbs                              | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/main.hbs                                | Handlebars |         47 |          0 |          1 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/register.hbs                            | Handlebars |         21 |          8 |          0 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/registerError.hbs                       | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/routes/router1.js                                    | JavaScript |         29 |          0 |         19 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/routes/routerChild.js                                | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/server.js                                            | JavaScript |        132 |          0 |         40 |        172 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/serverAPIRandom.js                                   | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/services/services.js                                 | JavaScript |         50 |          0 |         10 |         60 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/tests/api.test.js                                    | JavaScript |         22 |          0 |          8 |         30 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/tests/axiosConfig.js                                 | JavaScript |          3 |          0 |          2 |          5 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/tests/axiosTest.js                                   | JavaScript |         22 |          0 |          3 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/warn.log                                             | Log        |         82 |          0 |          1 |         83 |
+| /Users/turco/WebDev/coderhouse-backend-course/README.md                                                          | Markdown   |          1 |          0 |          0 |          1 |
+| /Users/turco/WebDev/coderhouse-backend-course/api.test.js                                                        | JavaScript |         22 |          0 |          8 |         30 |
+| /Users/turco/WebDev/coderhouse-backend-course/error.log                                                          | Log        |          0 |          0 |          1 |          1 |
+| /Users/turco/WebDev/coderhouse-backend-course/package.json                                                       | JSON       |         42 |          0 |          1 |         43 |
+| /Users/turco/WebDev/coderhouse-backend-course/warn.log                                                           | Log        |          0 |          0 |          1 |          1 |
+| Total                                                                                                            |            |    756,316 |      2,606 |      4,884 |    763,806 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

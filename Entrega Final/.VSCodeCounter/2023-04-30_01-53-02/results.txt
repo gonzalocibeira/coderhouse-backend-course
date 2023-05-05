@@ -1,0 +1,75 @@
+Date : 2023-04-30 01:53:02
+Directory : /Users/turco/WebDev/coderhouse-backend-course/Entrega Final
+Total : 34 files,  1079 codes, 10 comments, 230 blanks, all 1319 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         21 |        822 |          2 |        227 |      1,051 |
+| Handlebars |         10 |        147 |          8 |          1 |        156 |
+| Log        |          2 |        106 |          0 |          2 |        108 |
+| Properties |          1 |          4 |          0 |          0 |          4 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                        | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                           |         34 |      1,079 |         10 |        230 |      1,319 |
+| . (Files)                                                                                   |          5 |        293 |          0 |         58 |        351 |
+| config                                                                                      |          2 |         42 |          0 |         11 |         53 |
+| controllers                                                                                 |          1 |        137 |          0 |         29 |        166 |
+| lib                                                                                         |          3 |        105 |          1 |         27 |        133 |
+| models                                                                                      |          3 |         26 |          0 |          7 |         33 |
+| persistance                                                                                 |          3 |        133 |          1 |         32 |        166 |
+| public                                                                                      |         11 |        203 |          8 |         20 |        231 |
+| public (Files)                                                                              |          1 |         56 |          0 |         19 |         75 |
+| public/views                                                                                |         10 |        147 |          8 |          1 |        156 |
+| public/views (Files)                                                                        |          9 |        134 |          8 |          1 |        143 |
+| public/views/layouts                                                                        |          1 |         13 |          0 |          0 |         13 |
+| routes                                                                                      |          2 |         43 |          0 |         23 |         66 |
+| services                                                                                    |          1 |         50 |          0 |         10 |         60 |
+| tests                                                                                       |          3 |         47 |          0 |         13 |         60 |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                    | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/.env                            | Properties |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/config/firestoreConfig.js       | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/config/mongoConfig.js           | JavaScript |         28 |          0 |          6 |         34 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/controllers/controller.js       | JavaScript |        137 |          0 |         29 |        166 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/error.log                       | Log        |         24 |          0 |          1 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/lib/log4js.js                   | JavaScript |         28 |          0 |          5 |         33 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/lib/pasport.lib.js              | JavaScript |         52 |          0 |         14 |         66 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/lib/populate-store.js           | JavaScript |         25 |          1 |          8 |         34 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/models/cart.model.js            | JavaScript |          6 |          0 |          2 |          8 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/models/product.model.js         | JavaScript |          9 |          0 |          3 |         12 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/models/user.model.js            | JavaScript |         11 |          0 |          2 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/persistance/factory_ecom.js     | JavaScript |         12 |          0 |          1 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/persistance/persistance_chat.js | JavaScript |         35 |          1 |         13 |         49 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/persistance/persistance_ecom.js | JavaScript |         86 |          0 |         18 |        104 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/client.socket.js         | JavaScript |         56 |          0 |         19 |         75 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/cart.hbs           | Handlebars |         18 |          0 |          0 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/fakeProds.hbs      | Handlebars |         15 |          0 |          0 |         15 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/info.hbs           | Handlebars |         10 |          0 |          0 |         10 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/layouts/main.hbs   | Handlebars |         13 |          0 |          0 |         13 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/login.hbs          | Handlebars |         11 |          0 |          0 |         11 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/loginError.hbs     | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/logout.hbs         | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/main.hbs           | Handlebars |         47 |          0 |          1 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/register.hbs       | Handlebars |         21 |          8 |          0 |         29 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/public/views/registerError.hbs  | Handlebars |          4 |          0 |          0 |          4 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/routes/router1.js               | JavaScript |         29 |          0 |         19 |         48 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/routes/routerChild.js           | JavaScript |         14 |          0 |          4 |         18 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/server.js                       | JavaScript |        132 |          0 |         40 |        172 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/serverAPIRandom.js              | JavaScript |         51 |          0 |         16 |         67 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/services/services.js            | JavaScript |         50 |          0 |         10 |         60 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/tests/api.test.js               | JavaScript |         22 |          0 |          8 |         30 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/tests/axiosConfig.js            | JavaScript |          3 |          0 |          2 |          5 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/tests/axiosTest.js              | JavaScript |         22 |          0 |          3 |         25 |
+| /Users/turco/WebDev/coderhouse-backend-course/Entrega Final/warn.log                        | Log        |         82 |          0 |          1 |         83 |
+| Total                                                                                       |            |      1,079 |         10 |        230 |      1,319 |
++---------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
